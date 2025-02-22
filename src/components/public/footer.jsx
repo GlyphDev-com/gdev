@@ -119,6 +119,7 @@ export default function Footer() {
           <div
             style={borderStyles[index]}
             key={icon.props.icon.iconName}
+            data-aos-once="true"
             data-aos={
               index < halfLength
                 ? animationDirections[0]
