@@ -25,8 +25,8 @@ const GdevFormValidatorSection = () => {
               With No JavaScript
             </h1>
             <p className="lead gt-5 text-secondary">
-              Forget writing JavaScript for form validation! With GDev Form
-              Validator, <br />
+              Forget writing JavaScript for form validation! With
+              <span translate="no">gdev_form_validator</span>, <br />
               you can implement seamless, reliable validation in seconds with
               our out-of-the-box solution.
             </p>
@@ -39,16 +39,33 @@ const GdevFormValidatorSection = () => {
                 <span>Documentation</span>{" "}
                 <i className="bi bi-chevron-right"></i>
               </a>
-              <a
-                href="#"
+              <button
                 className="btn btn-outline-success text-light btn-lg gt-4"
+                onClick={async () => {
+                  const fileUrl =
+                    "https://cdn.jsdelivr.net/npm/@gdev-org/gdev_form_validator@latest/dist/gdev_form_validator.js";
+
+                  try {
+                    const response = await fetch(fileUrl);
+                    const blob = await response.blob();
+                    const link = document.createElement("a");
+                    link.href = URL.createObjectURL(blob);
+                    link.setAttribute("download", "gdev_form_validator.js");
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    URL.revokeObjectURL(link.href);
+                  } catch (error) {
+                    console.error("Error downloading file:", error);
+                  }
+                }}
               >
                 <span>Download now</span>{" "}
                 <i className="bi bi-chevron-right"></i>
-              </a>
+              </button>
             </div>
             <i className="gt-3 text-secondary fw-bold">
-              $ npm install gdev_form_validator
+              $ npm i @gdev-org/gdev_form_validator
             </i>
           </div>
 

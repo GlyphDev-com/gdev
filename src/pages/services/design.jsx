@@ -11,7 +11,7 @@ export default function Design() {
   return (
     <>
       <Header />
-      <Space height="76px" />
+      <Space height="76px" backgroundColor="#010A1C" />
       <ServicesPublicSection
         heading="Create advertising posters for your companies with Glyphdev "
         paragraph="We transform y We turn your ideas into professional and attractive flyers that drive growth and user satisfaction.our ideas into intuitive and engaging mobile apps that drive growth and user satisfaction"
@@ -24,7 +24,6 @@ export default function Design() {
 
       <Section2 />
 
-     
       <Footer />
     </>
   );

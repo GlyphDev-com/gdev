@@ -14,7 +14,7 @@ function Header() {
   return (
     <>
       <SEOHelmet
-        title="Gdev"
+        title="gdev"
         favicon={"image/svg+xml /icon.svg"}
         ogTitle={"Innovate with gdev - Mobile, Web, Design, and AI Solutions"}
         ogDescription={
@@ -27,7 +27,7 @@ function Header() {
         themeColor={"#0f1214"}
       />
       <nav
-        className="header py-2 fixed-top p-x-100 mobile-px-0 border-b-1 d-flex flex-row align-items-center justify-content-between"
+        className="header py-2 fixed-top p-x-100 mobile-px-2 border-b-1 d-flex flex-row align-items-center justify-content-between"
         style={{borderColor: "rgb(32, 35, 38)"}}
       >
         <Link to="/" className="nav-link " id="page" aria-current="page">

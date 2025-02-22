@@ -18,7 +18,7 @@ const VirtualSchoolSection = () => {
               VIRTUAL SCHOOL
             </span>
           </div>
-          <div className="d-flex align-items-center justify-content-center fw-bold gt-13 flex-column ">
+          <div className="d-flex align-items-center justify-content-center fw-bold gt-13 flex-column mobile-px-2">
             <span className="text-light text-center">
               Create a Virtual School that Stands Out
             </span>

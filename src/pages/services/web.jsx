@@ -8,7 +8,7 @@ export default function Web() {
   return (
     <>
       <Header />
-      <Space height="76px" />
+      <Space height="76px" backgroundColor="#010A1C" />
       <Service
         heading="Bienvenue chez  GDev votre allié pour une présence numérique personnalisée et efficace."
         paragraph="Nous concevons des sites web qui vont au-delà des attentes, mettant en valeur votre marque de manière distinctive et originale."

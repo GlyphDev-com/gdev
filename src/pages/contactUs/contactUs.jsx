@@ -7,16 +7,16 @@ export default function ContactUs() {
     return (
       <>
         <Header />
-        <Space height="76px" />
+        <Space height="76px" backgroundColor="#010A1C" />
         <section className={style.sec}>
           <div className={style.first}>
             <div
               id={style.part2}
               className="d-flex align-items-center justify-content-center"
-            //   style={{
-            //     backgroundImage:
-            //       "radial-gradient(circle, rgb(48, 133, 245), rgb(0, 0, 0))",
-            //   }}
+              //   style={{
+              //     backgroundImage:
+              //       "radial-gradient(circle, rgb(48, 133, 245), rgb(0, 0, 0))",
+              //   }}
             >
               <div className={style.messageFormContactUs}>
                 {" "}

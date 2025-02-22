@@ -3,7 +3,7 @@ import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import { Link } from "react-router-dom";
 
 import {
   faTiktok,
@@ -147,17 +147,26 @@ export default function Footer() {
           <ul>
             <li>Company</li>
 
-            <li>About</li>
-            <li>Terms</li>
-            <li>Contact us</li>
+            <Link className="text-decoration-none gt-2" to={"/contact"}>
+              <li className="text-white">About</li>
+            </Link>
+            <Link className="text-decoration-none gt-2" to={"/contact"}>
+              <li className="text-white">Contact us</li>
+            </Link>
           </ul>
 
           <ul>
             <li>Services</li>
 
-            <li>Design</li>
-            <li>Web Development</li>
-            <li>Mobile Development</li>
+            <Link className="text-decoration-none gt-2" to={"/services/design"}>
+              <li className="text-white">Design</li>
+            </Link>
+            <Link className="text-decoration-none gt-2" to={"/services/web"}>
+              <li className="text-white">Web Development</li>
+            </Link>
+            <Link className="text-decoration-none gt-2" to={"/services/mobile"}>
+              <li className="text-white">Mobile Development</li>
+            </Link>
           </ul>
 
           <ul>

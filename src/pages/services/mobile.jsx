@@ -23,7 +23,7 @@ export default function Mobile() {
       }}
     >
       <Header />
-      <Space height="76px" />
+      <Space height="76px" backgroundColor="#010A1C" />
       <ServicesPublicSection
         heading="Craft Powerful Mobile Apps with Gdev pen_spark"
         paragraph="We transform your ideas into intuitive and engaging mobile apps that drive growth and user satisfaction.
@@ -35,9 +35,9 @@ pen_spark."
           "App maintenance and support",
         ]}
       />
-      
-      <Section2/>
-   
+
+      <Section2 />
+
       <Footer />
     </div>
   );
