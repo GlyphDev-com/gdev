@@ -3,8 +3,8 @@ import "./section1.css";
 import back from "../../assets/bag1.png";
 import {Link} from "react-router-dom";
 import React from "react";
-import TypeWriter from "../public/typeWriter";
-import Space from "./../public/space";
+import TypeWriter from "../common/typeWriter";
+import Space from "./../common/space";
 
 export default function Section1() {
   return (

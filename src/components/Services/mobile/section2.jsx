@@ -1,4 +1,4 @@
-import CardView from "../../public/card.jsx";
+import CardView from "../../common/card.jsx";
 
 //import images
 import solace from "../../../assets/solace.png";

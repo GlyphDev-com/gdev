@@ -1,9 +1,9 @@
-import Header from "../../components/public/header";
-import Footer from "../../components/public/footer";
-import ServicesPublicSection from "../../components/public/servicesContactForm";
+import Header from "../../components/common/header";
+import Footer from "../../components/common/footer";
+import ServicesPublicSection from "../../components/common/servicesContactForm";
 
 
-import Space from "../../components/public/space";
+import Space from "../../components/common/space";
 import Section2 from "../../components/Services/design/section2.jsx";
 
 export default function Design() {

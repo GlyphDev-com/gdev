@@ -1,9 +1,9 @@
-import Header from "../components/public/header.jsx";
+import Header from "../components/common/header.jsx";
 import Section1 from "../components/Home/section1.jsx";
 import Section2 from "../components/Home/section2.jsx";
 import Section3 from "../components/Home/section3.jsx";
 
-import Footer from "../components/public/footer.jsx";
+import Footer from "../components/common/footer.jsx";
 import VirtualSchoolSection from "../components/Home/virtual_school_section.jsx";
 import GdevFormValidatorSection from "../components/Home/form_validator_section.jsx";
 import {useEffect} from "react";

@@ -1,7 +1,7 @@
 import style from "./contactUs.module.css" ;
-import Header from "../../components/public/header";
-import Footer from "../../components/public/footer";
-import Space from "../../components/public/space";
+import Header from "../../components/common/header";
+import Footer from "../../components/common/footer";
+import Space from "../../components/common/space";
 
 export default function ContactUs() {
     return (

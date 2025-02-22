@@ -1,7 +1,7 @@
-import Header from "../../components/public/header.jsx";
-import Footer from "../../components/public/footer.jsx";
-import Space from "../../components/public/space.jsx";
-import Service from "../../components/public/servicesContactForm.jsx";
+import Header from "../../components/common/header.jsx";
+import Footer from "../../components/common/footer.jsx";
+import Space from "../../components/common/space.jsx";
+import Service from "../../components/common/servicesContactForm.jsx";
 import Section2 from "../../../src/components/Services/web/section2";
 export default function Web() {
  

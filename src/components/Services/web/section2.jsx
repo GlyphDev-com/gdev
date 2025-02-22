@@ -2,7 +2,7 @@ import style from "./section2.module.css";
 import im1 from "../../../assets/Designer 1.jpeg"
 import im2 from "../../../assets/Designer 2.jpeg"
 import im3 from "../../../assets/webdev.jpeg"
-import { ElongatedCardView } from "../../public/card";
+import { ElongatedCardView } from "../../common/card";
 
 export default function Section2(){
     return <section id={style.section2}>

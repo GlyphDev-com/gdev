@@ -1,9 +1,9 @@
 //import the header
-import Header from "../../components/public/header";
+import Header from "../../components/common/header";
 //import the footer
-import Footer from "../../components/public/footer";
+import Footer from "../../components/common/footer";
 //import the servicesPublicSection
-import ServicesPublicSection from "../../components/public/servicesContactForm";
+import ServicesPublicSection from "../../components/common/servicesContactForm";
 
 //import the card view
 
@@ -12,7 +12,7 @@ import Section2 from "../../components/Services/mobile/section2.jsx";
 
 //import space from spacer component
 
-import Space from '../../components/public/space'
+import Space from '../../components/common/space'
 
 export default function Mobile() {
   
