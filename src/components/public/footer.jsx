@@ -1,9 +1,9 @@
 import gdevLogo from "../../assets/logo.svg";
 import "./footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import {
   faTiktok,
@@ -15,14 +15,14 @@ import {
   faGithub,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { useEffect } from "react";
+import {useEffect} from "react";
 
 export default function Footer() {
   const icons = [
     <FontAwesomeIcon
       key="tiktok"
       className="socialMedia"
-      style={{ color: "rgb(0, 0, 90)" }}
+      style={{color: "rgb(0, 0, 90)"}}
       icon={faTiktok}
     />,
     <FontAwesomeIcon
@@ -52,7 +52,7 @@ export default function Footer() {
     />,
     <FontAwesomeIcon
       key="github"
-      style={{ color: "rgb(0, 0, 100)" }}
+      style={{color: "rgb(0, 0, 100)"}}
       className="socialMedia"
       icon={faGithub}
     />,
@@ -110,7 +110,7 @@ export default function Footer() {
   // Pre-calculate an array of delays
   const iconDelays = [3500, 2500, 1500, 500, 0, 1000, 2000, 3000];
   useEffect(() => {
-    Aos.init({ duration: 500 });
+    Aos.init({duration: 500});
   }, []);
   return (
     <footer>
@@ -132,7 +132,7 @@ export default function Footer() {
         ))}
       </div>
       <div id="footerSection2">
-        <div id="footerSection2Left" data-aos="fade-up">
+        <div id="footerSection2Left" data-aos="fade-up" data-aos-once="true">
           <img
             src={gdevLogo}
             alt="Gdev"
@@ -182,11 +182,6 @@ export default function Footer() {
       <hr />
       <div id="footerSection3">
         <p className="text-white">&copy; 2024 Gdev. All rights reserved.</p>
-        <p className="footerSection3Right d-flex flex-row justify-content-center text-white gap-5">
-          <li>Privacy Policy</li>
-          <li>Terms & Conditions</li>
-          <li>Cookie Policy</li>
-        </p>
       </div>
     </footer>
   );
