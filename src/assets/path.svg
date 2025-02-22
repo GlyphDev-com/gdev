@@ -1,0 +1,35 @@
+<svg width="458" height="458" viewBox="0 0 458 458" fill="none">
+        <defs>
+          <filter id="glow-filter">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            />{" "}
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            <feColorMatrix
+              values="0 0 0 0 1 0 0 0 0 0.8 0 0 0 0 0.5"
+              result="colorized"
+            />{" "}
+          </filter>
+
+          <linearGradient
+            id="paint0_linear_796_6"
+            x1="229"
+            y1="3"
+            x2="229"
+            y2="455"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#03011C" />
+            <stop offset="0.5" stop-color="#2393A2" />
+            <stop offset="1" stop-color="#F01FCF" />
+          </linearGradient>
+        </defs>
+        <path
+          d="M111.5 154.5V424C152.73 448.226 180.637 455.335 240 455C397.156 425.084 449.374 374.539 456 203C430.904 73.1133 386.134 27.13 240 3C90.784 25.6929 12.1845 94.568 2 219.5C57.8722 99.0615 112.782 69.1389 240 62.5C334.61 83.4188 365.504 116.719 393 203C379.904 337.186 335.528 368.933 229.5 394V214M111.5 154.5L229.5 92L347 154.5M111.5 154.5L229.5 214M347 154.5V305.5L229.5 363.5M347 154.5L229.5 214"
+          stroke="url(#paint0_linear_796_6)"
+          stroke-width="1"
+          filter="url(#glow-filter)"
+        />
+      </svg>

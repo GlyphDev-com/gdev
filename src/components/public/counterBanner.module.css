@@ -1,0 +1,27 @@
+.CounterBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+   
+}
+
+.CounterLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.CounterLabel h1{
+    font-weight: 900;
+
+}
+
+@media screen and (max-width: 550px) {
+    .CounterBanner{
+        padding: 0 10px !important;
+    }
+}

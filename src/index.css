@@ -1,0 +1,113 @@
+/*import roboto font from google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  overflow-x: hidden !important;
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #a0c6ff;
+  border-radius: 10px;
+}
+
+/* Change thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: cyan;
+  cursor: pointer;
+}
+
+img {
+  user-select: none !important;
+}
+
+/*editor*/
+.ql-toolbar {
+  border: 0 !important;
+}
+
+.ql-editor {
+  padding-bottom: 50px !important;
+}
+
+.ql-container.ql-snow {
+  border: 0 !important;
+}
+.ql-snow .ql-tooltip {
+  background-color: transparent !important;
+}
+
+.quill {
+  height: 100% !important;
+}
+
+.ql-align-center{
+  text-align: center;
+}
+
+/*material ui*/
+.MuiPaper-root:has(.gdev_popover)
+   {
+   background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/*file picker*/
+.dzu-dropzone {
+  margin: 0;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px dashed var(--text-primary-color);
+  min-height: 60px;
+  border-radius: 0;
+}
+
+.dzu-previewFileName {
+  color: rgb(180, 208, 255);
+}
+
+.dzu-previewContainer {
+  height: fit-content;
+  border-bottom: 0;
+  padding: 4px 3%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 5px;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.dzu-previewFileName,
+.dzu-previewStatusContainer {
+  width: 100%;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+}
+
+.dzu-inputLabel {
+  font-size: var(--gt-4);
+}

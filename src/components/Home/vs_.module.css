@@ -1,0 +1,37 @@
+.create_school_button_container {
+    border: 1px dashed #7777eb;
+    border-radius: 5px;
+    width: 150px;
+    height: 75px;
+    margin-top: 30px;
+    margin-right: 150px;
+    background-color: rgba(38, 62, 82, 0.225);
+    animation-name: csb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .stars {
+    color: #7777eb !important;
+    animation-name: csb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes csb {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .create_school_wrapper:hover {
+    background-color: rgba(37, 66, 90, 0.3);
+  }

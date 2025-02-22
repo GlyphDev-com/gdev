@@ -1,0 +1,10 @@
+.barre{
+    width: 100vw;
+    height: 179px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #001237;
+    position: absolute;
+    top: 703px;
+}

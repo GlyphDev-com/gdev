@@ -1,0 +1,33 @@
+.feature_wrapper {
+    padding: 30px 15px;
+    max-width: 415px;
+    border-radius: 15px;
+    background-color: #03011c;
+  }
+  
+  .feature_wrapper_container{
+      background: linear-gradient(to bottom, #16191d 30%, #0a3280 70%);
+      padding: 1px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      width: fit-content;
+      transition: background 5s;
+  }
+  
+  .feature_wrapper_container:hover{
+      background: linear-gradient(to top, #16191d 30%, #0a3280 70%);
+      cursor: pointer;
+  }
+  
+  .feature_icon{
+      transition: all .5s ease-out;
+  }
+  
+  
+  .feature_wrapper_container:hover .feature_icon{
+      transform: rotateY(180deg);
+  }
+  
+  .feature_description{
+      color: rgba(255, 255, 255, 0.652);
+  }

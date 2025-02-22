@@ -1,0 +1,79 @@
+
+#logo {
+    width: 100px;
+    
+  }
+  
+  #sign-in {
+    background-color: white !important;
+  
+    padding: 7px 30px;
+    border: none;
+    border-radius: 20px;
+    color: blue;
+  }
+  
+  .header {
+    background-color:  rgb(26 30 35 / 21%);
+    backdrop-filter: blur(10px);
+  
+  }
+  
+  .sideCloser{
+    width: 40px;
+    height: 40px;
+    background-color:  rgba(6, 7, 9, 0.874);
+    backdrop-filter: blur(10px);
+    margin-left: -10px;
+  }
+  
+  .header .showSideNav {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    width: 300px;
+    background-color: rgba(6, 7, 9, 0.904);
+    backdrop-filter: blur(10px);
+    display: flex !important;
+    flex-direction: column !important;
+    transform: translateX(0); /* Ensure it's fully visible */
+    animation: aside 0.2s linear forwards;
+  }
+  
+  @keyframes aside {
+    from {
+      transform: translateX(100%); /* Start off-screen */
+    }
+    to {
+      transform: translateX(0); /* Move into view */
+    }
+  }
+  
+  .header .hideSideNav {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    width: 300px;
+    background-color: rgba(6, 7, 9, 0.904);
+    backdrop-filter: blur(10px);
+    display: flex !important;
+    flex-direction: column !important;
+    transform: translateX(0); /* Default state */
+    animation: hideSide 0.2s linear forwards;
+    pointer-events: none; /* Prevent interaction */
+  }
+  
+  @keyframes hideSide {
+    from {
+      transform: translateX(0); /* Start in view */
+    }
+    to {
+      transform: translateX(110%); /* Move off-screen */
+    }
+  }
+  
+  .showSideNav .wh-2{
+    color: rgb(209, 208, 218) !important;
+  }

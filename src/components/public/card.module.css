@@ -1,0 +1,101 @@
+.cardHolder {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: rgb(4, 1, 18);
+    padding: 20px;
+    border-radius: 10px;
+    border: 0.5px solid aliceblue;
+    color: aliceblue;
+    align-items: center;
+  }
+  
+  .invertedCardHolder {
+    flex-direction: row-reverse;
+  }
+  .cardDescription {
+    font-size: 1.2rem;
+  }
+  
+  .cardHolder img {
+    height: 400px;
+  }
+  
+  .cardTitle {
+    font-weight: 900;
+  }
+  
+  /********************************************************** */
+  .elongatedCard {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(150deg, rgb(9, 27, 40), rgb(0, 7, 12) 90%);
+    padding: 30px;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: -1px 0 2px 0 rgb(182, 204, 211);
+    flex-shrink: 0;
+  }
+  
+  .actionCardHead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  .actionCardIcon{
+    width: fit-content;
+    
+  }
+  
+  
+  /*card view*/
+  @media screen and (max-width: 1000px) {
+    .cardHolder {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .cardHolder {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .cardHolder img {
+      height: 200px !important;
+    }
+  
+    .cardDescription {
+      font-size: 1rem;
+    }
+  
+    .cardTitle {
+      font-weight: 700;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 450px) {
+    .elongatedCard{
+      width: 90vw !important;
+    }
+  }
+  
+  @media screen and (max-width: 470px) {
+      .actionCard{
+         width: 100% !important;
+         gap: 20px !important;
+         height: fit-content !important;
+      }
+  
+      .actionCardHead{
+          align-items: center !important;
+          gap: 20px;
+          flex-direction: row;
+      }
+  }

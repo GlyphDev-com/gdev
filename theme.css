@@ -1,0 +1,232 @@
+.theme-light * {
+    transition: color 0.1s ease, background-color 0.3s ease;
+  }
+  
+  .theme-dark * {
+    transition: color 0.1s ease, background-color 0.3s ease;
+  }
+  
+  /* light */
+  /** bg */
+  .theme-light {
+    .secondary-bg-color {
+      background-color: #f0f2f4 !important;
+      .ql-picker-options {
+        background-color: #f0f2f4 !important;
+      }
+      .ql-toolbar {
+        background-color: #ffffff !important;
+      }
+    }
+  }
+  .theme-light {
+    .primary-bg-color {
+      background-color: #ffffff !important;
+      .ql-picker-options {
+        background-color: #ffffff !important;
+      }
+      .ql-toolbar {
+        background-color: #f0f2f4 !important;
+      }
+    }
+  }
+  
+  .theme-light {
+    .transparent-bg-color {
+      background-color: transparent !important;
+      .ql-picker-options {
+        background-color: #ffffff !important;
+      }
+      .ql-toolbar {
+        background-color: transparent !important;
+      }
+    }
+  }
+  
+  .theme-light {
+    .tertiary-bg-color {
+      background-color: #889ca85f !important;
+      .ql-picker-options {
+        background-color: #a5dbfc5f !important;
+      }
+    }
+  }
+  /** text */
+  .theme-light {
+    .primary-text-color {
+      color: #44546f !important;
+      .ql-picker-label,
+      .ql-snow .ql-tooltip,
+      .ql-editor {
+        color: #44546f !important;
+      }
+  
+      .ql-stroke {
+        stroke: #44546f !important;
+      }
+      .ql-fill {
+        fill: #44546f !important;
+      }
+    }
+  }
+  .theme-light {
+    .secondary-text-color {
+      color: black !important;
+      .ql-picker-label,
+      .ql-snow .ql-tooltip,
+      .ql-editor {
+        color: black !important;
+      }
+      .ql-stroke {
+        stroke: black !important;
+      }
+      .ql-fill {
+        fill: black !important;
+      }
+    }
+  }
+  .theme-light {
+    .tertiary-text-color {
+      color: rgb(44, 44, 44) !important;
+      .ql-picker-label,
+      .ql-snow .ql-tooltip,
+      .ql-editor {
+        color: rgb(44, 44, 44) !important;
+      }
+      .ql-stroke {
+        color: rgb(44, 44, 44) !important;
+      }
+      .ql-fill {
+        color: rgb(44, 44, 44) !important;
+      }
+    }
+  }
+  
+  /* border */
+  .theme-light .primary-border {
+    border-color: #e7eef4 !important;
+  }
+  
+  .theme-light .secondary-border {
+    border-color: #c1c3c6 !important;
+  }
+  
+  .theme-light .tertiary-border {
+    border-color: #9ba6b3 !important;
+  }
+  
+  /*dark theme*/
+  
+  /* bg */
+  
+  .theme-dark {
+    .secondary-bg-color {
+      background-color: #1d2125 !important;
+      .ql-picker-options {
+        background-color: #1d2125 !important;
+      }
+      .ql-toolbar {
+        background-color: #191c20 !important;
+      }
+    }
+  }
+  .theme-dark {
+    .primary-bg-color {
+      background-color: #191c20 !important;
+      .ql-picker-options {
+        background-color: #191c20 !important;
+      }
+      .ql-toolbar {
+        background-color: #1d2125 !important;
+      }
+    }
+  }
+  
+  .theme-dark {
+    .tertiary-bg-color {
+      background-color: #3e41423c !important;
+      .ql-picker-options {
+        background-color: #3e41423c !important;
+      }
+    }
+  }
+  
+  .theme-dark {
+    .transparent-bg-color {
+      background-color: transparent !important;
+      .ql-picker-options {
+        background-color: #191c20 !important;
+      }
+      .ql-toolbar {
+        background-color: transparent !important;
+      }
+    }
+  }
+  
+  /** text */
+  .theme-dark {
+    .primary-text-color {
+      color: white !important;
+      .ql-picker-label,
+      .ql-snow .ql-tooltip,
+      .ql-picker-item,
+      .ql-editor {
+        color: white !important;
+      }
+  
+      .ql-stroke {
+        stroke: white !important;
+      }
+      .ql-fill {
+        fill: white !important;
+      }
+    }
+  }
+  
+  .theme-dark {
+    .secondary-text-color {
+      color: #9ea9b1 !important;
+      .ql-picker-label,
+      .ql-snow .ql-tooltip,
+      .ql-picker-item,
+      .ql-editor {
+        color: #9ea9b1 !important;
+      }
+      .ql-stroke {
+        stroke: #9ea9b1 !important;
+      }
+      .ql-fill {
+        fill: #9ea9b1 !important;
+      }
+    }
+  }
+  .theme-dark {
+    .tertiary-text-color {
+      color: rgb(72, 72, 72) !important;
+      .ql-stroke {
+        color: rgb(72, 72, 72) !important;
+        .ql-picker-label,
+        .ql-snow .ql-tooltip,
+        .ql-picker-item,
+        .ql-editor {
+          color: rgb(72, 72, 72) !important;
+        }
+      }
+      .ql-fill {
+        color: rgb(72, 72, 72) !important;
+      }
+    }
+  }
+  
+  /* border */
+  .theme-dark .primary-border {
+    border-color: #191c20 !important;
+  }
+  
+  .theme-dark .secondary-border {
+    border-color: #1d2125 !important;
+  }
+  
+  .theme-dark .tertiary-border {
+    border-color: #404446 !important;
+  }

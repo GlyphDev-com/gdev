@@ -1,0 +1,19 @@
+#section2{
+    width:100%;
+    height: 761px;
+    background: linear-gradient(to bottom, #010C22 9%,#031538 100%);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    padding-top: 76px;
+    overflow-x: auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+
+}
+
+#section2::-webkit-scrollbar {
+  display: none;
+}

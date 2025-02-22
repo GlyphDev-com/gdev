@@ -1,0 +1,129 @@
+#servicesPublicSection {
+    position: relative;
+    min-height: calc(100vh - 90px);
+    background-color: #010c22;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+  }
+  
+  .sec {
+    height: fit-content;
+    z-index: 1;
+    background: transparent;
+  }
+  
+  .sec h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #52d6ff;
+    z-index: 9999 !important;
+  }
+  
+  #advertPoints {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bulb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .actualAdvert {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  form {
+    padding: 30px;
+    max-width: 460px;
+    background-color: rgba(94, 91, 148, 0.28);
+    border-radius: 10px;
+    
+  }
+  
+  form #name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .inputBox{
+    flex: 1;
+  }
+  
+  form .field {
+    margin-top: 30px;
+  }
+  
+  form textarea {
+    height: 110px !important;
+  }
+  
+  .absoluteBulb {
+    position: absolute;
+    top: 40px;
+    right: -30px;
+    float: right;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(
+      to left,
+      #B131FF ,
+      transparent 70%
+    );
+    rotate: 155deg;
+  }
+  
+  
+  /*responsiveness*/
+  
+  @media screen and (max-width: 1150px){
+  .sec h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    
+    }
+  
+    #servicesPublicSection{
+      padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    #servicesPublicSection {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .sec{
+      width: 100%;
+    }
+  
+    .form{
+      width: 100%;
+      max-width: none;
+    }
+  
+    #advertPoints{
+      margin-top: 30px !important;
+    }
+  
+    .sec h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    
+    }
+  }
