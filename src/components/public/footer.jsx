@@ -119,13 +119,13 @@ export default function Footer() {
           <div
             style={borderStyles[index]}
             key={icon.props.icon.iconName}
-            data-aos-once="true"
             data-aos={
               index < halfLength
                 ? animationDirections[0]
                 : animationDirections[1]
             }
             data-aos-delay={iconDelays[index]}
+            data-aos-once="true"
             className={index === 0 ? "delayedIcon" : ""} // Alternate direction every other icon
           >
             <div className="socialIconHolder">{icon}</div>
