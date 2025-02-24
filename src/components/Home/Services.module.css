@@ -1,0 +1,32 @@
+.carousel_container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  scroll-snap-type: none; 
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: rgba(3, 1, 28, 0.453);
+}
+
+.fade_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to right, #03011c, transparent, #03011c);
+}

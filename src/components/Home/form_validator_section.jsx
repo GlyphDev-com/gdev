@@ -1,7 +1,5 @@
 import React from "react";
-import back from "../../assets/bag4.png";
 import sampleCode from "../../assets/gd_form_validator_code.png";
-import validatorDemo from "../../assets/gd_validator_demo.gif";
 const GdevFormValidatorSection = () => {
   return (
     <>

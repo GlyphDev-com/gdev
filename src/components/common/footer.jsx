@@ -114,75 +114,63 @@ export default function Footer() {
   }, []);
   return (
     <footer>
-      <div className="socialMediaSection" id="socials">
-        {icons.map((icon, index) => (
-          <div
-            style={borderStyles[index]}
-            key={icon.props.icon.iconName}
-            data-aos={
-              index < halfLength
-                ? animationDirections[0]
-                : animationDirections[1]
-            }
-            data-aos-delay={iconDelays[index]}
-            data-aos-once="true"
-            className={index === 0 ? "delayedIcon" : ""} // Alternate direction every other icon
-          >
-            <div className="socialIconHolder">{icon}</div>
+      <div className="container">
+        <div className="socialMediaSection" id="socials">
+          {icons.map((icon, index) => (
+            <div
+              style={borderStyles[index]}
+              key={icon.props.icon.iconName}
+              data-aos={
+                index < halfLength
+                  ? animationDirections[0]
+                  : animationDirections[1]
+              }
+              data-aos-delay={iconDelays[index]}
+              data-aos-once="true"
+              className={index === 0 ? "delayedIcon" : ""} // Alternate direction every other icon
+            >
+              <div className="socialIconHolder">{icon}</div>
+            </div>
+          ))}
+        </div>
+        <div id="footerSection2">
+          <div id="footerSection2Left" data-aos="fade-up" data-aos-once="true">
+            <img
+              src={gdevLogo}
+              alt="Gdev"
+              className="tablet-height-100 mobile-height-100"
+              style={{height: "200px"}}
+            />
+            <p className="wh-2 gt-4">
+              Bridge the Tech Gap. Start Your Journey Today.
+            </p>
           </div>
-        ))}
-      </div>
-      <div id="footerSection2">
-        <div id="footerSection2Left" data-aos="fade-up" data-aos-once="true">
-          <img
-            src={gdevLogo}
-            alt="Gdev"
-            className="tablet-height-100 mobile-height-100"
-          />
-          <p className="text-white">
-            Bridge the Tech Gap. Start Your Journey Today.
-          </p>
+
+          <div id="footerSection2Right" className="width-fit-content">
+            <ul>
+              <li className="text-white">Company</li>
+
+              <Link className="text-decoration-none gt-2" to={"/contact"}>
+                <li className="wh-2 fw-normal gt-5">About</li>
+              </Link>
+              <Link className="text-decoration-none gt-2" to={"/contact"}>
+                <li className="wh-2 fw-normal gt-5">Contact us</li>
+              </Link>
+            </ul>
+            <ul className="wh-2 fw-normal gt-5">
+              <li className="text-white">Trainings</li>
+
+              <li >Design</li>
+              <li>Mobile Development</li>
+              <li>Web Development</li>
+              <li>Programming Basics</li>
+            </ul>
+          </div>
         </div>
-
-        <div id="footerSection2Right">
-          <ul>
-            <li>Company</li>
-
-            <Link className="text-decoration-none gt-2" to={"/contact"}>
-              <li className="text-white">About</li>
-            </Link>
-            <Link className="text-decoration-none gt-2" to={"/contact"}>
-              <li className="text-white">Contact us</li>
-            </Link>
-          </ul>
-
-          <ul>
-            <li>Services</li>
-
-            <Link className="text-decoration-none gt-2" to={"/services/design"}>
-              <li className="text-white">Design</li>
-            </Link>
-            <Link className="text-decoration-none gt-2" to={"/services/web"}>
-              <li className="text-white">Web Development</li>
-            </Link>
-            <Link className="text-decoration-none gt-2" to={"/services/mobile"}>
-              <li className="text-white">Mobile Development</li>
-            </Link>
-          </ul>
-
-          <ul>
-            <li>Trainings</li>
-
-            <li>Design</li>
-            <li>Mobile Development</li>
-            <li>Web Development</li>
-            <li>Programming Basics</li>
-          </ul>
+        <hr />
+        <div id="footerSection3">
+          <p className="wh-2 gt-5">&copy; 2024 Gdev. All rights reserved.</p>
         </div>
-      </div>
-      <hr />
-      <div id="footerSection3">
-        <p className="text-white">&copy; 2024 Gdev. All rights reserved.</p>
       </div>
     </footer>
   );

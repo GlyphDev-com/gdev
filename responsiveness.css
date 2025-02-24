@@ -1,7 +1,10 @@
 /* Extra Small (mobile) */
 @media (max-width: 480px) {
   /* Styles for smaller mobile devices */
-
+/*gap*/
+.mobile-gap-0 {
+  gap: 0 !important;
+}
   /* Display */
   .mobile-d-block {
     display: block !important;
@@ -9,7 +12,7 @@
   .mobile-d-flex {
     display: flex !important;
   }
-  .mobile-d-inline{
+  .mobile-d-inline {
     display: inline !important;
   }
   .mobile-flex-column {
@@ -29,7 +32,7 @@
   }
 
   /*lift*/
-  .mobile-lift-0{
+  .mobile-lift-0 {
     box-shadow: none !important;
   }
 
@@ -37,7 +40,7 @@
   .mobile-w-100 {
     width: 100% !important;
   }
-  
+
   .mobile-w-75 {
     width: 75% !important;
   }
@@ -62,6 +65,35 @@
   .mobile-w-auto {
     width: auto !important;
   }
+  .mobile-wdth-100{
+    width: 100px !important;
+  }
+  .mobile-wdth-150{
+    width: 150px !important;
+  }
+  .mobile-wdth-200{
+    width: 200px !important;
+  }
+  .mobile-wdth-250{
+    width: 250px !important;
+  }
+  .mobile-wdth-300{
+    width: 300px !important;
+  }
+  .mobile-wdth-350{
+    width: 350px !important;
+  }
+  .mobile-wdth-400{
+    width: 400px !important;
+  }
+  .mobile-wdth-450{
+    width: 450px !important;
+  }
+  .mobile-wdth-500{
+    width: 500px !important;
+  }
+
+
 
   /* Height */
   .mobile-h-100 {
@@ -86,23 +118,23 @@
     height: auto !important;
   }
 
-  .mobile-height-100{
+  .mobile-height-100 {
     height: 100px !important;
   }
-  .mobile-height-200{
-    height: 200px!important;
+  .mobile-height-200 {
+    height: 200px !important;
   }
-  .mobile-height-300{
-    height: 300px!important;
+  .mobile-height-300 {
+    height: 300px !important;
   }
-  .mobile-height-350{
-    height: 350px!important;
+  .mobile-height-350 {
+    height: 350px !important;
   }
-  .mobile-height-400{
-    height: 400px!important;
+  .mobile-height-400 {
+    height: 400px !important;
   }
-  .mobile-height-500{
-    height: 500px!important;
+  .mobile-height-500 {
+    height: 500px !important;
   }
 
   /* Position */
@@ -369,9 +401,15 @@
   }
 }
 
+
+
 /* Small (ipad) */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   /* Styles for larger mobile devices */
+  /*gap*/
+  .ipad-gap-0 {
+    gap: 0 !important;
+  }
   .ipad-d-block {
     display: block !important;
   }
@@ -412,7 +450,7 @@
   }
   .ipad-w-25 {
     width: 25% !important;
-   min-width: unset !important;
+    min-width: unset !important;
     max-width: unset !important;
   }
   .ipad-vw-100 {
@@ -430,6 +468,25 @@
     min-width: unset !important;
     max-width: unset !important;
   }
+
+
+  .ipad-width-100 {
+    width: 100px !important;
+  }
+  .ipad-width-200 {
+    width: 200px !important;
+  }
+
+  .ipad-width-300 {
+    width: 300px !important;
+  }
+  .ipad-width-400 {
+    width: 400px !important;
+  }
+  .ipad-width-500 {
+    width: 500px !important;
+  }
+
 
   /*height*/
   .ipad-h-100 {
@@ -454,20 +511,20 @@
     width: auto !important;
   }
 
-  .ipad-height-100{
-   height: 100px !important;
+  .ipad-height-100 {
+    height: 100px !important;
   }
-  .ipad-height-200{
+  .ipad-height-200 {
     height: 200px !important;
   }
 
-  .ipad-height-300{
+  .ipad-height-300 {
     height: 300px !important;
   }
-  .ipad-height-400{
+  .ipad-height-400 {
     height: 400px !important;
   }
-  .ipad-height-500{
+  .ipad-height-500 {
     height: 500px !important;
   }
 

@@ -2,8 +2,6 @@ footer {
     min-height: 600px;
     width: 100%;
     background: linear-gradient(to bottom, rgb(0, 1, 14) 70%, #1f323d);
-  
-    padding: 40px 20px;
   }
   
   .socialMediaSection {
@@ -61,7 +59,7 @@ footer {
   
   #footerSection2Right {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 100px;
   }
   
@@ -140,7 +138,6 @@ footer {
     }
   
     #footerSection2Left img {
-      width: 200px;
       height: 100px;
     }
   }

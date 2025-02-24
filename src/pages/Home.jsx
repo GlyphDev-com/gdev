@@ -9,6 +9,7 @@ import GdevFormValidatorSection from "../components/Home/form_validator_section.
 import {useEffect} from "react";
 import Features  from "../components/Home/Features.jsx";
 import Partners from "../components/Home/Partners.jsx";
+import Services from "../components/Home/Services.jsx";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <VirtualSchoolSection />
       <GdevFormValidatorSection />
       <Features />
+      <Services/>
       <Section3 />
       <Footer />
     </div>
