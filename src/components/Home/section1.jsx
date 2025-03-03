@@ -5,11 +5,10 @@ import {Link} from "react-router-dom";
 import React from "react";
 import TypeWriter from "../common/typeWriter";
 import Space from "./../common/space";
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
 
 export default function Section1() {
-
-  const {t }=useTranslation()
+  const {t} = useTranslation();
 
   return (
     <section
@@ -79,28 +78,27 @@ export default function Section1() {
                 <span>{t("letsTalk")}</span>
                 <i className="bi bi-chevron-right"></i>
               </Link>
-              <Link
-                to="services/mobile"
+              <a
+                href=" https://whatsapp.com/channel/0029Vb2tRgJBfxoDP6K2Di1S "
+                target="_blank"
+                rel="noopener noreferrer"
                 className="d-flex align-items-center btn border-r-1 border-l-1 border-color-jira text-light mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
               >
                 <span>{t("whatsapUs")}</span>
                 <i className="bi bi-chevron-right text-light"></i>
-              </Link>
+              </a>
             </div>
             <div
               className="mt-3 width-fit-content d-flex flex-row gap-2 align-items-center justify-content-center mobile-flex-column"
               style={{color: "hsl(216deg 15.38% 74.51%)"}}
             >
-              <span className="gt-3 text-center">
-              {t("dontMiss")}
-              </span>
+              <span className="gt-3 text-center">{t("dontMiss")}</span>
               <i
                 className="bi bi-chevron-double-down bottom_scroller glowing-chevron cursor-ptr"
                 style={{
                   color: "#3399FF",
-                  
                 }}
-                onClick={(e)=>{
+                onClick={(e) => {
                   //soft scroll to #socials
                   e.preventDefault();
                   window.scrollTo({

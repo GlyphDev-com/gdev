@@ -5,16 +5,13 @@ import gdevLogo from "../../assets/logo.svg";
 import {Link} from "react-router-dom";
 import SEOHelmet from "./helmet";
 import {useEffect, useState} from "react";
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
 import LanguageSwitcher from "./languageSwitcher";
 //create header component
 function Header() {
   const [sideNav, setSideNav] = useState(false);
 
-  const {t } = useTranslation()
-
-
-
+  const {t} = useTranslation();
 
   useEffect(() => {
     window.scrollTo({top: 0, behavior: "instant"});
@@ -48,56 +45,56 @@ function Header() {
             setSideNav("showSideNav");
           }}
         ></i>
+        <div className="d-flex flex-row align-items-center gap-5">
+          <div
+            className={`d-flex flex-row align-items- gap-3 tablet-d-none ipad-d-none mobile-d-none ${sideNav}`}
+          >
+            <div className="w-100 my-2  d-none tablet-d-block ipad-d-block mobile-d-block">
+              <i
+                className="bi bi-chevron-right text-light cursor-ptr gt-12 rounded-circle d-flex align-items-center justify-content-center border-b-2 border-l-2 sideCloser border-color-jira"
+                onClick={() => setSideNav("hideSideNav")}
+              ></i>
+            </div>
+            <Link
+              className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold p-2 br-2 hover-bg-secondary"
+              aria-current="page"
+              to="/contact"
+            >
+              {t("AboutUs")}
+            </Link>
+            <Link
+              className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
+              aria-current="page"
+              to="/contact"
+            >
+              {t("ContactUs")}
+            </Link>
+            <a
+              className="text-decoration-none wh-2 gt-4 tablet-px-4 ipad-px-4 mobile-px-4 fw-bold p-2 br-2 hover-bg-secondary me-5 tablet-m-0 ipad-m-0 mobile-m-0"
+              href="http://localhost:5000/"
+              translate="no"
+              target="_blank"
+            >
+              gdev_form_validator
+            </a>
 
-        <div
-          className={`d-flex flex-row align-items- gap-3 tablet-d-none ipad-d-none mobile-d-none ${sideNav}`}
-        >
-          <div className="w-100 my-2  d-none tablet-d-block ipad-d-block mobile-d-block">
-            <i
-              className="bi bi-chevron-right text-light cursor-ptr gt-12 rounded-circle d-flex align-items-center justify-content-center border-b-2 border-l-2 sideCloser border-color-jira"
-              onClick={() => setSideNav("hideSideNav")}
-            ></i>
+            <a
+              target="_blank"
+              href="/myvirtualschool/signin/trainee/gdev university/YUEIU-RT-YIOJOIT8ORE[]THTOIJ8H_87623FECWUDVSYRTFDT7W6EFKSDYS80W43"
+              className="btn btn-success gt-4 fw-bold flex-shrink-0 tablet-mx-4 ipad-mx-4 mobile-mx-4"
+            >
+              {t("startLearning")} ?
+            </a>
+            <a
+              href="/myvirtualschool/create"
+              target="_blank"
+              className="btn bg-light vs_create_hero_btn  gt-4 fw-bold flex-shrink-0 tablet-mx-4 ipad-mx-4 mobile-mx-4"
+              style={{textDecoration: "none"}}
+            >
+              {t("CreateASkul")}
+            </a>
           </div>
-          <Link
-            className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold p-2 br-2 hover-bg-secondary"
-            aria-current="page"
-            to="/contact"
-          >
-            {t("AboutUs")}
-          </Link>
-          <Link
-            className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
-            aria-current="page"
-            to="/contact"
-          >
-                        {t("ContactUs")}
-          </Link>
-          <a
-            className="text-decoration-none wh-2 gt-4 tablet-px-4 ipad-px-4 mobile-px-4 fw-bold p-2 br-2 hover-bg-secondary me-5 tablet-m-0 ipad-m-0 mobile-m-0"
-            href="http://localhost:5000/"
-            translate="no"
-            target="_blank"
-          >
-            Gdev-Form-Validator
-          </a>
-
-          <a
-            target="_blank"
-            href="/myvirtualschool/signin/trainee/gdev university/YUEIU-RT-YIOJOIT8ORE[]THTOIJ8H_87623FECWUDVSYRTFDT7W6EFKSDYS80W43"
-            className="btn btn-success gt-4 fw-bold flex-shrink-0 tablet-mx-4 ipad-mx-4 mobile-mx-4"
-          >
-            {t("startLearning")} ?
-          </a>
-          <a
-            href="/myvirtualschool/create"
-            target="_blank"
-            className="btn bg-light vs_create_hero_btn  gt-4 fw-bold flex-shrink-0 tablet-mx-4 ipad-mx-4 mobile-mx-4"
-            style={{textDecoration: "none"}}
-          >
-            {t("CreateASkul")}
-          </a>
-          <LanguageSwitcher/>
-
+          <LanguageSwitcher />
         </div>
       </nav>
     </>
