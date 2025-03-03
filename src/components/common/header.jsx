@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import SEOHelmet from "./helmet";
 import {useEffect, useState} from "react";
 import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./languageSwitcher";
 //create header component
 function Header() {
   const [sideNav, setSideNav] = useState(false);
@@ -62,15 +63,14 @@ function Header() {
             aria-current="page"
             to="/contact"
           >
-            {t("Welcome to React")}
-            About us
+            {t("AboutUs")}
           </Link>
           <Link
             className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
             aria-current="page"
             to="/contact"
           >
-            Contact us
+                        {t("ContactUs")}
           </Link>
           <a
             className="text-decoration-none wh-2 gt-4 tablet-px-4 ipad-px-4 mobile-px-4 fw-bold p-2 br-2 hover-bg-secondary me-5 tablet-m-0 ipad-m-0 mobile-m-0"
@@ -86,7 +86,7 @@ function Header() {
             href="/myvirtualschool/signin/trainee/gdev university/YUEIU-RT-YIOJOIT8ORE[]THTOIJ8H_87623FECWUDVSYRTFDT7W6EFKSDYS80W43"
             className="btn btn-success gt-4 fw-bold flex-shrink-0 tablet-mx-4 ipad-mx-4 mobile-mx-4"
           >
-            Start learning now ?
+            {t("startLearning")} ?
           </a>
           <a
             href="/myvirtualschool/create"
@@ -94,8 +94,10 @@ function Header() {
             className="btn bg-light vs_create_hero_btn  gt-4 fw-bold flex-shrink-0 tablet-mx-4 ipad-mx-4 mobile-mx-4"
             style={{textDecoration: "none"}}
           >
-            Create a virtual school
+            {t("CreateASkul")}
           </a>
+          <LanguageSwitcher/>
+
         </div>
       </nav>
     </>

@@ -1,3 +1,21 @@
 {
-  "Welcome to React": "Welcome to React and react-i18next"
+  "Welcome to React": "Welcome to React and react-i18next",
+  "comment to delimit header": "Header",
+  "AboutUs": "About us",
+  "ContactUs": "Contact us",
+  "startLearning": "Start learning now",
+  "CreateASkul": "Create a virtual school",
+  "comment to delimit section1": "section1",
+  "buildYour": "Build your",
+  "customSoftware": "Custom Software",
+  "aiSolution": "AI Solution",
+  "digitalTool": "Digital Tool",
+  "virtualSkul": "Virtual School",
+  "CreativeDesign": "Creative Design",
+  "whereIdea": "Where ideas thrive",
+  "elevateYourBusiness": "Elevate your business with custom mobile apps, web solutions, stunning designs, and AI-powered systems",
+  "turnYourIdeas": "Turn your ideas into reality!",
+  "letsTalk": "Let's Talk Now",
+  "whatsapUs": "Whatsapp us",
+  "dontMiss": "Don't miss a beat! Join gdev on social media and stay ahead with our latest innovations."
 }

@@ -5,8 +5,12 @@ import {Link} from "react-router-dom";
 import React from "react";
 import TypeWriter from "../common/typeWriter";
 import Space from "./../common/space";
+import { useTranslation } from "react-i18next";
 
 export default function Section1() {
+
+  const {t }=useTranslation()
+
   return (
     <section
       className="section1 d-flex"
@@ -37,36 +41,34 @@ export default function Section1() {
               className="text-white hero_advert_text "
               style={{fontWeight: "900", lineHeight: "1.1"}}
             >
-              <span>Build your</span>
+              <span>{t("buildYour")}</span>
               <br />
               <span style={{color: "#3399FF"}} className="line-count-1">
                 {
                   <TypeWriter
                     sequence={[
-                      "Custom Software",
+                      t("customSoftware"),
                       5000,
 
-                      "AI Solution",
+                      t("aiSolution"),
                       5000,
-                      "Digital Tool",
+                      t("digitalTool"),
                       5000,
-                      "Virtual School",
+                      t("virtualSkul"),
                       5000,
-                      "Creative Design",
+                      t("CreativeDesign"),
                       5000,
                     ]}
                   />
                 }
               </span>
-              <span>Where ideas thrive.</span>
+              <span>{t("whereIdea")}</span>
             </div>
             <p
               className="gt-5 my-4 col-10 advert_sublet mobile-w-100"
               style={{color: "hsl(216deg 15.38% 74.51%)"}}
             >
-              Elevate your business with custom mobile apps, web solutions,
-              stunning designs, and AI-powered systems. <br /> Turn your ideas
-              into reality!
+              {t("elevateYourBusiness")} <br /> {t("turnYourIdeas")}
             </p>
 
             <div className="d-flex flex-row gap-2 mobile-flex-column">
@@ -74,14 +76,14 @@ export default function Section1() {
                 to="services/mobile"
                 className="d-flex align-items-center btn btn-primary mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
               >
-                <span>Let's Talk Now</span>
+                <span>{t("letsTalk")}</span>
                 <i className="bi bi-chevron-right"></i>
               </Link>
               <Link
                 to="services/mobile"
                 className="d-flex align-items-center btn border-r-1 border-l-1 border-color-jira text-light mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
               >
-                <span>Whatsapp us</span>
+                <span>{t("whatsapUs")}</span>
                 <i className="bi bi-chevron-right text-light"></i>
               </Link>
             </div>
@@ -90,8 +92,7 @@ export default function Section1() {
               style={{color: "hsl(216deg 15.38% 74.51%)"}}
             >
               <span className="gt-3 text-center">
-                Don't miss a beat! Join gdev on social media and stay ahead with
-                our latest innovations.
+              {t("dontMiss")}
               </span>
               <i
                 className="bi bi-chevron-double-down bottom_scroller glowing-chevron cursor-ptr"

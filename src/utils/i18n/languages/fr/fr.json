@@ -1,3 +1,21 @@
 {
-  "Welcome to React": "Bienvenue à React et react-i18next"
+  "Welcome to React": "Bienvenue sur React et react-i18next",
+  "comment to delimit header": "En-tête",
+  "AboutUs": "À propos de nous",
+  "ContactUs": "Contactez-nous",
+  "startLearning": "Apprendre maintenant",
+  "CreateASkul": "Créez une école virtuelle",
+  "comment to delimit section1": "section1",
+  "buildYour": "Construisez votre",
+  "customSoftware": "Logiciel Personnalisé",
+  "aiSolution": "Solution Intelligent (IA)",
+  "digitalTool": "Outil Numérique",
+  "virtualSkul": "École Virtuelle",
+  "CreativeDesign": "Design Créatif",
+  "whereIdea": "Là où les idées prospèrent",
+  "elevateYourBusiness": "Élevez votre entreprise avec des applications mobiles sur mesure, des solutions web, des designs époustouflants et des systèmes alimentés par l'IA.",
+  "turnYourIdeas": "Transformez vos idées en réalité !",
+  "letsTalk": "Parlons-en",
+  "whatsapUs": "Whatsapp",
+  "dontMiss": "Ne manquez rien ! Rejoignez gdev sur les réseaux sociaux et restez à la pointe avec nos dernières innovations."
 }
