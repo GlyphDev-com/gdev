@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "@gdev-org/gdev_form_validator";
+import "./utils/i18n/index.js";
 import Router from "./Router.jsx";
 
 // Import statement

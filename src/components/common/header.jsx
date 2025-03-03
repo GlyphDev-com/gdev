@@ -5,12 +5,19 @@ import gdevLogo from "../../assets/logo.svg";
 import {Link} from "react-router-dom";
 import SEOHelmet from "./helmet";
 import {useEffect, useState} from "react";
+import { useTranslation } from "react-i18next";
 //create header component
 function Header() {
+  const [sideNav, setSideNav] = useState(false);
+
+  const {t } = useTranslation()
+
+
+
+
   useEffect(() => {
     window.scrollTo({top: 0, behavior: "instant"});
   }, []);
-  const [sideNav, setSideNav] = useState(false);
   return (
     <>
       <SEOHelmet
@@ -55,6 +62,7 @@ function Header() {
             aria-current="page"
             to="/contact"
           >
+            {t("Welcome to React")}
             About us
           </Link>
           <Link
