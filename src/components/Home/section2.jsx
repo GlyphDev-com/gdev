@@ -14,8 +14,13 @@ import "./section2.css";
 
 import laptop from "../../assets/lap.jpeg";
 import {useEffect} from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Section2() {
+
+
+  const {t} = useTranslation()
+
   useEffect(() => {
     const targetElement = document.getElementById("section2-1"); // Replace with the actual target element ID
 
@@ -94,17 +99,14 @@ export default function Section2() {
         <div id="section2-1">
           <div id="section2-1-text-area" className="col-7">
             <h1 className="fw-bold">
-              Code Like a Boss <br /> Master Tech Skills in English or French!
+              {t("codeLikeABoss")} <br /> {t("masterTechSkills")}
             </h1>
             <br />
             <p className="gt-5 text-secondary">
-              Stuck in tech purgatory? Gdev ignites your coding journey!
-              Master mobile app dev, web dev, or AI - the choice is yours.
-              Limited spots! Enroll now and become the sexiest coder in the
-              room.
+            {t("stuckInTech")}
             </p>
             <p>
-              <button className="btn btn-primary text-light">Enroll Now</button>
+              <button className="btn btn-primary text-light">{t("enrollNow")}</button>
             </p>
           </div>
           <svg
@@ -181,14 +183,13 @@ export default function Section2() {
           <div id="section2-2-text-area">
             <div className="sec">
               <h2 className="col-10 fw-bold text-light display-2">
-                <span translate="no">GDEV</span>, Your Partner for Digital
-                Growth
+                <span translate="no">GDEV</span>, {t("yourPartner")}
               </h2>
             </div>
 
             <div className="sec" data-aos="flip-up">
               <h3 className="" style={{color: "rgb(182, 39, 221)"}}>
-                Ideas
+              {t("ideas")}
               </h3>
               <p
                 className="col-6 text-light mr-5"
@@ -196,34 +197,28 @@ export default function Section2() {
                   border: "0.5px solid rgba(202, 84, 242, 0.311)",
                 }}
               >
-                We don't just deliver, we support. Our team provides ongoing
-                assistance after project completion to ensure your software
-                functions flawlessly and you can maximize its potential.
+                {t("weDontJustDeliver")}
               </p>
             </div>
 
             <div className="sec" data-aos="fade-right">
               <h3 className="" style={{color: "rgb(39, 136, 221)"}}>
-                Training
+              {t("training")}
               </h3>
               <p
                 className="col-6 text-light"
                 style={{border: "0.5px solid rgba(202, 84, 242, 0.311)"}}
               >
-                We offer flexible learning options (online, in-person,
-                self-paced) and personalized support to ensure everyone can
-                learn and succeed at their own pace.
+                {t("weOffer")}
               </p>
             </div>
 
             <div className="sec" data-aos="flip-down">
               <h3 className="" style={{color: "green"}}>
-                Productivity
+                {t("productivity")}
               </h3>
               <p className="col-6 text-light ">
-                Led by industry experts, our team has a proven history of
-                delivering high-quality training programs and software solutions
-                that help businesses and individuals achieve their goals.
+              {t("leadByIndustryExperts")}
               </p>
             </div>
           </div>

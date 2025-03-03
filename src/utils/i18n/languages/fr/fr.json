@@ -8,7 +8,7 @@
   "comment to delimit section1": "section1",
   "buildYour": "Construisez votre",
   "customSoftware": "Logiciel Personnalisé",
-  "aiSolution": "Solution Intelligent (IA)",
+  "aiSolution": "Solution Intelligente (IA)",
   "digitalTool": "Outil Numérique",
   "virtualSkul": "École Virtuelle",
   "CreativeDesign": "Design Créatif",
@@ -17,5 +17,17 @@
   "turnYourIdeas": "Transformez vos idées en réalité !",
   "letsTalk": "Parlons-en",
   "whatsapUs": "Whatsapp",
-  "dontMiss": "Ne manquez rien ! Rejoignez gdev sur les réseaux sociaux et restez à la pointe avec nos dernières innovations."
+  "dontMiss": "Ne manquez rien ! Rejoignez gdev sur les réseaux sociaux et restez à la pointe avec nos dernières innovations.",
+  "comment to delimit section2": "section2",
+  "codeLikeABoss": "Codez comme un pro",
+  "masterTechSkills": "Maîtrisez les compétences techniques en anglais ou en français !",
+  "stuckInTech": "Coincé dans le purgatoire technologique ? Gdev lance votre parcours de codage ! Maîtrisez le développement d'applications mobiles, le développement web ou l'IA - à vous de choisir. Places limitées ! Inscrivez-vous maintenant et devenez le codeur le plus sexy de la pièce.",
+  "enrollNow": "Inscrivez-vous maintenant",
+  "yourPartner": "Votre partenaire pour la croissance numérique",
+  "ideas": "Idées",
+  "weDontJustDeliver": "Nous ne nous contentons pas de livrer, nous vous accompagnons. Notre équipe fournit une assistance continue après la livraison du projet pour garantir que votre logiciel fonctionne parfaitement et que vous puissiez en maximiser le potentiel.",
+  "training": "Formation",
+  "weOffer": "Nous proposons des options d'apprentissage flexibles (en ligne, en personne, à votre rythme) et un soutien personnalisé pour garantir que chacun puisse apprendre et réussir à son propre rythme.",
+  "productivity": "Productivité",
+  "leadByIndustryExperts": "Dirigée par des experts de l'industrie, notre équipe a une histoire prouvée de la fourniture de programmes de formation et de solutions logicielles de haute qualité qui aident les entreprises et les individus à atteindre leurs objectifs."
 }
