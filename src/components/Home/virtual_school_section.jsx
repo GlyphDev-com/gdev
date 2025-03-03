@@ -1,8 +1,13 @@
 import React from "react";
 import style from "./vs_.module.css";
 import vsImgShowcase from "../../assets/vsImgShowcase.svg";
+import { useTranslation } from "react-i18next";
 
 const VirtualSchoolSection = () => {
+
+  const {t} = useTranslation()
+
+
   return (
     <>
       <section
@@ -20,14 +25,13 @@ const VirtualSchoolSection = () => {
           </div>
           <div className="d-flex align-items-center justify-content-center fw-bold gt-13 flex-column mobile-px-2">
             <span className="text-light text-center">
-              Create a Virtual School that Stands Out
+              {t("createAVirtualSkulThat")}
             </span>
             <span className="text-center" style={{color: "#3399FF"}}>
-              Build. Teach. Empower.
+              {t("buildTeach")}
             </span>
             <span className="gt-5 text-secondary text-center">
-              From custom courses to seamless management tools, Gdev Virtual
-              School brings your teaching vision to life.
+              {t("fromCustomCoursTo")}
             </span>
           </div>
         </div>
@@ -61,7 +65,7 @@ const VirtualSchoolSection = () => {
                 className={`w-100 h-100 position-relative cursor-ptr d-flex align-items-center justify-content-center ${style.create_school_wrapper} `}
               >
                 <span className="gt-5  text-white cursor-ptr">
-                  Create Virtual School
+                  {t("createVitualSkul")}
                 </span>
                 <i
                   className="bi bi-cursor position-absolute"
