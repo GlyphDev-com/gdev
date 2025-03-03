@@ -18,6 +18,7 @@
   "letsTalk": "Let's Talk Now",
   "whatsapUs": "Whatsapp us",
   "dontMiss": "Don't miss a beat! Join gdev on social media and stay ahead with our latest innovations.",
+
   "comment to delimit section2": "section2",
   "codeLikeABoss": "Code Like a Boss",
   "masterTechSkills": "Master Tech Skills in English or French!",
@@ -30,10 +31,60 @@
   "weOffer": "We offer flexible learning options (online, in-person, self-paced) and personalized support to ensure everyone can learn and succeed at their own pace.",
   "productivity": "Productivity",
   "leadByIndustryExperts": "Led by industry experts, our team has a proven history of delivering high-quality training programs and software solutions that help businesses and individuals achieve their goals.",
+
   "comment to delimit VirtualSchoolSection": "VirtualSchoolSection",
   "createAVirtualSkulThat": "Create a Virtual School that Stands Out",
   "buildTeach": "Build. Teach. Empower.",
   "fromCustomCoursTo": "From custom courses to seamless management tools, Gdev Virtual School brings your teaching vision to life.",
-  "createVitualSkul": "Create Virtual School"
+  "createVitualSkul": "Create Virtual School",
+
+  "comment to delimit GdevFormValidatorSection": "GdevFormValidatorSection",
+  "dataSanitization": "DATA SANITIZATION",
+  "effortless": "Effortless",
+  "formValidation": "Form Validation",
+  "withNoJavascript": "With No JavaScript",
+  "forgetWritingJavascript": "Forget writing JavaScript for form validation! With",
+  "youCanImplement": "you can implement seamless, reliable validation in seconds with our out-of-the-box solution.",
+  "downloadNow": "Download now",
+  "viewAliveDemo": "View a live demo of gdev form validator in action.",
+
+  "comment to delimit Features": "Features",
+  "coreFeatures": "CORE FEATURES",
+  "standoutFeatures": "Standout Features",
+  "softwareDev": "Software Development",
+  "createEfficient": "Create efficient, scalable software with tools like GDev Form Validator. We support developers at every stage, from prototyping to deployment, with robust and easy-to-integrate solutions.",
+  "empowerIndividuals": "Empower individuals with personalized and collaborative learning experiences through GDev Virtual School. From coding bootcamps to skill-based workshops, we provide a platform for impactful education.",
+  "deliverVisualyStunning": "Deliver visually stunning and user-friendly designs with GDev's focus on seamless user interfaces and experiences. We ensure every tool and platform is crafted with precision and usability in mind.",
+
+  "comment to delimit Services": "Services",
+  "mobileDev": "Mobile Development",
+  "atGdevWeBuild": "At gdev, we build powerful, user-friendly mobile apps for iOS and Android. Our team focuses on performance, sleek design, and features that make a difference — turning ideas into seamless digital experiences.",
+  "webDev": "Web Development",
+  "weCreateFast":"We create fast, responsive web solutions tailored to your needs. Our developers and designers work together to build platforms that are visually stunning, scalable, and optimized for performance.",
+  "artificialIntelligence": "Artificial Intelligence",
+  "transformYourBusiness": "Transform your business with AI-driven solutions built by GDev. We design intelligent systems that automate workflows, analyze data, and deliver personalized experiences — unlocking new possibilities.",
+  "ourServices": "OUR SERVICES",
+  "whatDoWeOffer": "What Do We Offer ?",
+  "turningIdeasIntoReality": "Turning ideas into reality with web, mobile, and AI solutions built for growth, designed for impact.",
+
+  "comment to delimit Section3": "Section3",
+  "yourName": "Your name",
+  "enterYourName": "Enter your name",
+  "phoneNumber": "Phone number",
+  "enterYourPhoneNumber": "Enter phone number",
+  "emailAddress": "Email Address",
+  "EnterYourEmail": "Enter your email",
+  "whatsYourBudget": "What's your budget?",
+  "whatDoYouWant": "What do you want?",
+  "iWantAnEcommerce": "I want an e-commerce website with payment intergration...",
+  "submit": "Submit",
+
+  "comment to delimit Footer": "Footer",
+  "bridgeTheTechGap": "Bridge the Tech Gap. Start Your Journey Today.",
+  "company": "Company",
+  "programmingBasics": "Programming Basics",
+  "allRightReserved": " 2024 Gdev. All rights reserved."
+
+
 
 }

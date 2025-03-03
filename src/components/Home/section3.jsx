@@ -1,7 +1,10 @@
 import "aos/dist/aos.css";
 import "./section3.css";
+import { useTranslation } from "react-i18next";
 
 export default function Section3() {
+const {t} = useTranslation()
+
   return (
     <div id="section3">
       <div className="left "></div>
@@ -16,11 +19,11 @@ export default function Section3() {
         <div className="p-2">
           <div className="gdev-field-wrapper">
             <div className="capsule">
-              <label htmlFor="fullname">Your name</label>
+              <label htmlFor="fullname">{t("yourName")}</label>
               <input
                 type="text"
                 id="fullname"
-                placeholder="Enter your name"
+                placeholder={t("enterYourName")}
                 name="fullname"
                 gdev_props='{"name":"fullname","type":"text", "required": "true", "minWord": "1@@invalid name."}'
               />
@@ -29,10 +32,10 @@ export default function Section3() {
 
           <div className="gdev-field-wrapper">
             <div className="capsule">
-              <label htmlFor="phone">Phone number</label>
+              <label htmlFor="phone">{t("phoneNumber")}</label>
               <input
                 type="tel"
-                placeholder="Enter phone number"
+                placeholder={t("enterYourPhoneNumber")}
                 id="phone"
                 name="email"
                 gdev_props='{"name":"phone","type":"tel", "required": "true", "country": "any"}'
@@ -42,10 +45,10 @@ export default function Section3() {
 
           <div className="gdev-field-wrapper">
             <div className="capsule">
-              <label htmlFor="email">Email Address</label>
+              <label htmlFor="email">{t("emailAddress")}</label>
               <input
                 type="text"
-                placeholder="Enter your email"
+                placeholder={t("EnterYourEmail")}
                 id="email"
                 name="email"
                 gdev_props='{"name":"email","type":"email", "provider": "any", "required": "true"}'
@@ -58,7 +61,7 @@ export default function Section3() {
               <label htmlFor="budget">Budget(cfa)</label>
               <input
                 type="number"
-                placeholder="What's your budget?"
+                placeholder={t("whatsYourBudget")}
                 id="budget"
                 name="budget"
                 gdev_props='{"name":"budget","type":"number", "min": "0@@invalid budget"}'
@@ -68,13 +71,13 @@ export default function Section3() {
 
           <div className="gdev-field-wrapper">
             <div className="capsule">
-              <label htmlFor="desc">What do you want?</label>
+              <label htmlFor="desc">{t("whatDoYouWant")}</label>
               <textarea
                 type="text"
                 id="desc"
                 className="py-4"
                 style={{resize: "none", height: "150px"}}
-                placeholder="I want an e-commerce website with payment intergration..."
+                placeholder={t("iWantAnEcommerce")}
                 name="desc"
                 gdev_props='{"name":"desc","type":"text", "maxWord": "40@@description is too long.", "required": "true"}'
               ></textarea>
@@ -82,7 +85,7 @@ export default function Section3() {
           </div>
 
           <button type="submit" className="btn btn-primary w-100 mt-4 py-2">
-            Submit
+          {t("submit")}
           </button>
         </div>
       </form>

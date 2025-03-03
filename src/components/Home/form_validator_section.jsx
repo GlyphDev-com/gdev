@@ -1,6 +1,8 @@
 import React from "react";
 import sampleCode from "../../assets/gd_form_validator_code.png";
+import { useTranslation } from "react-i18next";
 const GdevFormValidatorSection = () => {
+  const {t}= useTranslation()
   return (
     <>
       <section className="w-100 ">
@@ -13,20 +15,20 @@ const GdevFormValidatorSection = () => {
           >
             <div className="width-fit-content my-3">
               <span className="fw-bold gt-4 " style={{color: " #3399FF"}}>
-                DATA SANITIZATION
+                {t("dataSanitization")}
               </span>
             </div>
             <h1 className="display-4 mb-4" style={{fontWeight: "900"}}>
-              Effortless <br />
-              <span style={{color: "#3399FF"}}>Form Validation</span>
+            {t("effortless")}
+            <br />
+              <span style={{color: "#3399FF"}}>{t("formValidation")}</span>
               <br />
-              With No JavaScript
+              {t("withNoJavascript")}
             </h1>
             <p className="lead gt-5 text-secondary">
-              Forget writing JavaScript for form validation! With
-              <span translate="no">gdev_form_validator</span>, <br />
-              you can implement seamless, reliable validation in seconds with
-              our out-of-the-box solution.
+              {t("forgetWritingJavascript")}
+              <span translate="no"> gdev_form_validator</span>, <br />
+              {t("youCanImplement")}
             </p>
             <div className="my-4">
               <a
@@ -58,7 +60,7 @@ const GdevFormValidatorSection = () => {
                   }
                 }}
               >
-                <span>Download now</span>{" "}
+                <span>{t("downloadNow")}</span>{" "}
                 <i className="bi bi-chevron-right"></i>
               </button>
             </div>
@@ -86,7 +88,7 @@ const GdevFormValidatorSection = () => {
               </div>
               <div>
                 <span className="gt-5 text-secondary">
-                  View a live demo of gdev form validator in action.
+                  {t("viewAliveDemo")}
                 </span>
               </div>
               <div className="mt-2">

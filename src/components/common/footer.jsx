@@ -16,8 +16,12 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {useEffect} from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+
+  const {t} = useTranslation()
+
   const icons = [
     <FontAwesomeIcon
       key="tiktok"
@@ -142,34 +146,34 @@ export default function Footer() {
               style={{height: "200px"}}
             />
             <p className="wh-2 gt-4">
-              Bridge the Tech Gap. Start Your Journey Today.
+            {t("bridgeTheTechGap")}
             </p>
           </div>
 
           <div id="footerSection2Right" className="width-fit-content">
             <ul>
-              <li className="text-white">Company</li>
+              <li className="text-white">{t("company")}</li>
 
               <Link className="text-decoration-none gt-2" to={"/contact"}>
-                <li className="wh-2 fw-normal gt-5">About</li>
+                <li className="wh-2 fw-normal gt-5">{t("AboutUs")}</li>
               </Link>
               <Link className="text-decoration-none gt-2" to={"/contact"}>
-                <li className="wh-2 fw-normal gt-5">Contact us</li>
+                <li className="wh-2 fw-normal gt-5">{t("ContactUs")}</li>
               </Link>
             </ul>
             <ul className="wh-2 fw-normal gt-5">
-              <li className="text-white">Trainings</li>
+              <li className="text-white">{t("training")}</li>
 
               <li >Design</li>
-              <li>Mobile Development</li>
-              <li>Web Development</li>
-              <li>Programming Basics</li>
+              <li>{t("mobileDev")}</li>
+              <li>{t("webDev")}</li>
+              <li>{t("programmingBasics")}</li>
             </ul>
           </div>
         </div>
         <hr />
         <div id="footerSection3">
-          <p className="wh-2 gt-5">&copy; 2024 Gdev. All rights reserved.</p>
+          <p className="wh-2 gt-5">&copy;{t("allRightReserved")}</p>
         </div>
       </div>
     </footer>

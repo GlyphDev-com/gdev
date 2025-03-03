@@ -34,5 +34,54 @@
   "createAVirtualSkulThat": "Créez une école virtuelle qui se distingue",
   "buildTeach": "Construire. Enseigner. Autonomiser.",
   "fromCustomCoursTo": "Des cours personnalisés aux outils de gestion transparents, Gdev Virtual School donne vie à votre vision pédagogique.",
-  "createVitualSkul": "Créer une école virtuelle"
+  "createVitualSkul": "Créer une école virtuelle",
+  "comment to delimit GdevFormValidatorSection": "GdevFormValidatorSection",
+  "dataSanitization": "SANITISATION DES DONNÉES",
+  "effortless": "Sans effort",
+  "formValidation": "Validation de formulaire",
+  "withNoJavascript": "Sans JavaScript",
+  "forgetWritingJavascript": "Oubliez l'ecriture du JavaScript pour la validation des formulaires ! Avec",
+  "youCanImplement": "vous pouvez implémenter une validation fiable et transparente en quelques secondes grâce à notre solution prête à l'emploi.",
+  "downloadNow": "Téléchargez maintenant",
+  "viewAliveDemo": "Voir une démo en direct de Gdev Form Validator en action.",
+
+  "comment to delimit Features": "Features",
+  "coreFeatures": "CARACTÉRISTIQUES PRINCIPALES",
+  "standoutFeatures": "Caractéristiques remarquables",
+  "softwareDev": "Développement de logiciels",
+  "createEfficient": "Créez des logiciels efficaces et évolutifs avec des outils comme GDev Form Validator. Nous soutenons les développeurs à chaque étape, de la création de prototypes au déploiement, avec des solutions robustes et faciles à intégrer.",
+  "empowerIndividuals": "Autonomisez les individus avec des expériences d'apprentissage personnalisées et collaboratives grâce à GDev Virtual School. Des bootcamps de codage aux ateliers basés sur les compétences, nous offrons une plateforme pour une éducation impactante.",
+  "deliverVisualyStunning": "Offrez des conceptions visuellement époustouflantes et conviviales avec l'accent de GDev sur des interfaces et des expériences utilisateur fluides. Nous veillons à ce que chaque outil et plateforme soit conçu avec précision et souci de la convivialité.",
+
+  "comment to delimit Services": "Services",
+  "mobileDev": "Développement Mobile",
+  "atGdevWeBuild": "Chez Gdev, nous créons des applications mobiles puissantes et conviviales pour iOS et Android. Notre équipe se concentre sur la performance, un design épuré et des fonctionnalités qui font la différence — transformant les idées en expériences numériques fluides.",
+  "webDev": "Développement Web",
+  "weCreateFast": "Nous créons des solutions web rapides et réactives, adaptées à vos besoins. Nos développeurs et designers travaillent ensemble pour construire des plateformes visuellement époustouflantes, évolutives et optimisées pour la performance.",
+  "artificialIntelligence": "Intelligence Artificielle",
+  "transformYourBusiness": "Transformez votre entreprise avec des solutions pilotées par l'IA conçues par GDev. Nous concevons des systèmes intelligents qui automatisent les flux de travail, analysent les données et offrent des expériences personnalisées — ouvrant ainsi de nouvelles possibilités.",
+  "ourServices": "NOS SERVICES",
+  "whatDoWeOffer": "Que proposons-nous ?",
+  "turningIdeasIntoReality": "Transformer les idées en réalité avec des solutions web, mobiles et IA conçues pour la croissance, imaginées pour l'impact.",
+
+  "comment to delimit Section3": "Section3",
+  "yourName": "Votre nom",
+  "enterYourName": "Entrez votre nom",
+  "phoneNumber": "Numéro de téléphone",
+  "enterYourPhoneNumber": "Entrez votre numéro de téléphone",
+  "emailAddress": "Adresse e-mail",
+  "EnterYourEmail": "Entrez votre e-mail",
+  "whatsYourBudget": "Quel est votre budget ?",
+  "whatDoYouWant": "Que souhaitez-vous ?",
+  "iWantAnEcommerce": "Je veux un site e-commerce avec intégration de paiement...",
+  "submit": "Soumettre",
+
+  "comment to delimit Footer": "Footer",
+  "bridgeTheTechGap": "Comblez le fossé technologique. Commencez votre parcours aujourd'hui.",
+  "company": "Entreprise",
+  "programmingBasics": "Les bases de la programmation",
+  "allRightReserved": "2024 Gdev. Tous droits réservés."
+
+
+
 }
