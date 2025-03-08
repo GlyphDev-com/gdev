@@ -80,7 +80,37 @@
   "bridgeTheTechGap": "Comblez le fossé technologique. Commencez votre parcours aujourd'hui.",
   "company": "Entreprise",
   "programmingBasics": "Les bases de la programmation",
-  "allRightReserved": "2024 Gdev. Tous droits réservés."
+  "allRightReserved": "2024 Gdev. Tous droits réservés.",
+
+  "comment to delimit FAQ page": "FAQ page",
+  "faqIntroduction": "Vous avez des questions concernant nos services de développement d'applications mobile/web et de pages web ? Nous avons rassemblé ici les réponses aux questions les plus courantes. Si vous ne trouvez pas ce que vous cherchez, n'hésitez pas à nous contacter directement.",
+  "faqServiceEtExpertise": "Services et Expertise",
+  "quelsType": "Quels types d’applications développez-vous ?",
+  "quelsTypeRe":  "Nous développons des applications mobiles pour iOS et Android, des applications web et des pages web sur mesure, adaptées aux besoins spécifiques de votre entreprise.",
+  "quelsCompetences": "Quelles sont vos principales compétences ?",
+  "quelsCompetencesRe": "Nous sommes spécialisés dans le développement d’applications mobiles natives, hybrides, ainsi que dans la création de sites web interactifs et responsives en utilisant des technologies comme React, Vue.js, Angular, etc.",
+  "faqDeveloppementEtProcessus": "Développement et Processus",
+  "CommentFonctionneLeProcessus": "Comment fonctionne le processus de développement d'une application ?",
+  "CommentFonctionneLeProcessusRe": "Nous suivons une méthode agile, avec une première phase de consultation pour comprendre vos besoins, puis des phases de conception, de développement, de tests et de mise en production. Nous vous tenons informé à chaque étape.",
+  "combienDeTemps": "Combien de temps faut-il pour développer une application ?",
+  "combienDeTempsRe": "Le temps de développement dépend de la complexité de votre projet. En moyenne, une application mobile peut prendre entre 2 et 6 mois.",
+  "faqTarification": "Tarification",
+  "commentDeterminerLeTarif": "Comment déterminez-vous vos tarifs ?",
+  "commentDeterminerLeTarifRe": "Nos tarifs sont basés sur la complexité du projet, les technologies nécessaires et le temps estimé pour la réalisation. Nous proposons des devis personnalisés après avoir évalué vos besoins.",
+  "proposezDesForfaits": "Proposez-vous des forfaits fixes ou des tarifs horaires ?",
+  "proposezDesForfaitsRe": "Nous offrons les deux options. Selon la taille et la durée de votre projet, nous vous proposerons un devis au forfait ou un tarif horaire.",
+  "faqMaintenanceEtSupport": "Maintenance et Support",
+  "offrerUnService": "Offrez-vous un service de maintenance après la livraison ?",
+  "offrerUnServiceRe": "Oui, nous offrons des services de maintenance pour corriger les bugs, effectuer des mises à jour ou ajouter de nouvelles fonctionnalités.",
+  "commentGererLeSupport": "Comment gérez-vous le support après le lancement ?",
+  "commentGererLeSupportRe": "Nous proposons une assistance technique continue, que ce soit par email, téléphone ou chat en ligne. Nous assurons aussi des mises à jour régulières pour garder vos applications à jour.",
+  "faqLivraisonEtTest": "Livraison et Tests",
+  "commentPuisJeTester": "Comment puis-je tester l’application avant la livraison ?",
+  "commentPuisJeTesterRe": "Nous offrons des versions beta de l’application pour que vous puissiez tester les fonctionnalités avant la mise en ligne officielle. Nous effectuons aussi des tests utilisateurs pour garantir la qualité du produit."
+
+
+
+
 
 
 

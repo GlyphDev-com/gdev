@@ -83,8 +83,33 @@
   "bridgeTheTechGap": "Bridge the Tech Gap. Start Your Journey Today.",
   "company": "Company",
   "programmingBasics": "Programming Basics",
-  "allRightReserved": " 2024 Gdev. All rights reserved."
+  "allRightReserved": " 2024 Gdev. All rights reserved.",
 
 
+  "comment to delimit FAQ page": "FAQ page",
+"faqIntroduction": "Do you have questions about our mobile/web application development services and web pages? We have gathered here the answers to the most common questions. If you can't find what you're looking for, feel free to contact us directly.",
+  "faqServiceEtExpertise": "Services and Expertise",
+  "quelsType": "What types of applications do you develop?",
+  "quelsTypeRe": "We develop mobile applications for iOS and Android, web applications, and custom web pages tailored to the specific needs of your business.",
+  "quelsCompetences": "What are your main skills?",
+  "quelsCompetencesRe": "We specialize in native and hybrid mobile app development, as well as creating interactive and responsive websites using technologies like React, Vue.js, Angular, etc.",
+  "faqDeveloppementEtProcessus": "Development and Process",
+  "CommentFonctionneLeProcessus": "How does the app development process work?",
+  "CommentFonctionneLeProcessusRe": "We follow an agile methodology, starting with a consultation phase to understand your needs, followed by design, development, testing, and deployment phases. We keep you informed at every step.",
+  "combienDeTemps": "How long does it take to develop an app?",
+  "combienDeTempsRe": "The development time depends on the complexity of your project. On average, a mobile app can take between 2 to 6 months.",
+  "faqTarification": "Pricing",
+  "commentDeterminerLeTarif": "How do you determine your pricing?",
+  "commentDeterminerLeTarifRe": "Our pricing is based on the complexity of the project, the technologies required, and the estimated time to completion. We provide customized quotes after evaluating your needs.",
+  "proposezDesForfaits": "Do you offer fixed packages or hourly rates?",
+  "proposezDesForfaitsRe": "We offer both options. Depending on the size and duration of your project, we will provide either a fixed price quote or an hourly rate.",
+  "faqMaintenanceEtSupport": "Maintenance and Support",
+  "offrerUnService": "Do you offer maintenance services after delivery?",
+  "offrerUnServiceRe": "Yes, we offer maintenance services to fix bugs, perform updates, or add new features.",
+  "commentGererLeSupport": "How do you handle support after launch?",
+  "commentGererLeSupportRe": "We provide ongoing technical support, whether by email, phone, or online chat. We also ensure regular updates to keep your apps up to date.",
+  "faqLivraisonEtTest": "Delivery and Testing",
+  "commentPuisJeTester": "How can I test the application before delivery?",
+  "commentPuisJeTesterRe": "We offer beta versions of the application so you can test the features before the official launch. We also conduct user tests to ensure product quality."
 
 }
