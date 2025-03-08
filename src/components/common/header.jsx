@@ -69,6 +69,14 @@ function Header() {
             >
               {t("ContactUs")}
             </Link>
+            <Link
+            className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
+            aria-current="page"
+            to="/FAQ"
+          >
+                        {/* {t("ContactUs")} */}
+                        FAQ
+          </Link>
             <a
               className="text-decoration-none wh-2 gt-4 tablet-px-4 ipad-px-4 mobile-px-4 fw-bold p-2 br-2 hover-bg-secondary me-5 tablet-m-0 ipad-m-0 mobile-m-0"
               href="http://localhost:5000/"
