@@ -3,7 +3,7 @@ import Partners from "../Home/Partners";
 import { useTranslation } from "react-i18next";
 
 export default function PrendreRendezVous() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <div className="container">
@@ -18,7 +18,7 @@ export default function PrendreRendezVous() {
               href="https://whatsapp.com/channel/0029Vb2tRgJBfxoDP6K2Di1S"
               target="_blank"
               rel="noopener noreferrer"
-              className="d-flex bg-secondary align-items-center btn border-r-1 border-l-1 border-color-jira text-light mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
+              className="d-flex bg-success align-items-center btn border-r-1 border-l-1 border-color-jira text-light mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
               aria-label="Contactez-nous sur WhatsApp"
             >
               <span>{t("whatsapUs")}</span>

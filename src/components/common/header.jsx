@@ -58,7 +58,7 @@ function Header() {
             <Link
               className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold p-2 br-2 hover-bg-secondary"
               aria-current="page"
-              to="/contact"
+              to="/about-us"
             >
               {t("AboutUs")}
             </Link>
