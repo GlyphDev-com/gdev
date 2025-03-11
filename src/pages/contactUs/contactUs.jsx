@@ -7,7 +7,7 @@ import PrendreRendezVous from "../../components/contactUs/PrendreRendezVous";
 
 export default function ContactUs() {
     return (
-      <div  style={{backgroundColor:"#010A1C", color: "white"}}>
+      <div  style={{backgroundColor:"#010A1C", color: "#9FABC0"}}>
         <Header />
         <Space height="76px" backgroundColor="#010A1C" />
         

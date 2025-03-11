@@ -1,6 +1,7 @@
 {
   "Welcome to React": "Bienvenue sur React et react-i18next",
   "comment to delimit header": "En-tête",
+  "home": "Accueil",
   "AboutUs": "À propos de nous",
   "ContactUs": "Contactez-nous",
   "startLearning": "Apprendre maintenant",

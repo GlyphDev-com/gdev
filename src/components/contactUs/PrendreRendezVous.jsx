@@ -9,7 +9,7 @@ export default function PrendreRendezVous() {
     <div className="container">
       <div className="left">
         <div className="title">
-          <p className="fs-3">
+          <p className="fs-3 text-white">
             Obtenez un rendez-vous avec un Chef de projet de Gdev.
           </p>
           <p>
@@ -29,7 +29,7 @@ export default function PrendreRendezVous() {
         <div className="contain">
           {/* Bloc 1: Entretien Téléphonique */}
           <div className="bloc1">
-            <div className="entete fs-5">
+            <div className="entete fs-5 text-white">
               <span className="icon mx-2">
                 <i className="bi bi-telephone-fill"></i>
               </span>
@@ -49,7 +49,7 @@ export default function PrendreRendezVous() {
 
           {/* Bloc 2: Préparer l'entretien */}
           <div className="bloc2">
-            <div className="entete fs-5">
+            <div className="entete fs-5 text-white">
               <span className="icon mx-2">
                 <i className="bi bi-clock-fill"></i>
               </span>

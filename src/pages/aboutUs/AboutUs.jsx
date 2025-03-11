@@ -9,7 +9,7 @@ import Features from "../../components/Home/Features";
 
 export default function AboutUs() {
   return (
-    <div  style={{backgroundColor:"#010A1C", color: "white"}}>
+    <div  style={{backgroundColor:"#010A1C", color: "#9FABC0"}}>
       <Header />
       <Space height="76px" backgroundColor="#010A1C" />
       <section className="container">
@@ -18,7 +18,7 @@ export default function AboutUs() {
           passionnes par la <span>creation d'applications ,sites web</span> et le partage des notions de ces creations, <span>formations</span>.
         </section>
         <section>
-          <h2>Vision et mission</h2>
+          <h2 className="text-white">Vision et mission</h2>
           <div>
             <p>
               Nous nous rassurons d'apporter a chaque client une solution
@@ -30,9 +30,11 @@ export default function AboutUs() {
           </div>
         </section>
         <section>
+          <p>
           Venez prendre part a nos nos processus de conception et de realisation
           a travers nos formations, et gagner en comptences dans la creation
           d'applications et sites performants et fluides.
+          </p>
         </section>
         <section>
           <Services />
@@ -43,7 +45,7 @@ export default function AboutUs() {
           </p>
         </section>
         <section>
-            <h2 className="d-flex justify-content-center mb-3">Realisations</h2>
+            <h2 className="d-flex justify-content-center mb-3 text-white">Realisations</h2>
         <VirtualSchoolSection />
         <GdevFormValidatorSection />
         </section>

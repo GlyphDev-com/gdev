@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactUsForm() {
   return (
-    <div>
+    <div className="text-white">
       <form
         id="myForm"
         lang="en"
@@ -18,7 +18,7 @@ export default function ContactUsForm() {
                 type="text"
                 className=" border-t-0  border-l-0 border-r-0 br-0 border-secondary"
                 id="nom"
-                placeholder="Kenfack Nkruma"
+                placeholder="Kenfack Nkrumah"
                 name="nom"
                 gdev_props='{"name":"nom","type":"text", "minWord": "2"}'
               />
@@ -32,7 +32,7 @@ export default function ContactUsForm() {
               <input
                 type="email"
                 className=" border-t-0  border-l-0 border-r-0 br-0 border-secondary"
-                placeholder="Nkruma@mail.com"
+                placeholder="Nkrumah@mail.com"
                 id="mail"
                 name="mail"
                 gdev_props='{"name":"mail","type":"password", "securityLevel": "s3"}'

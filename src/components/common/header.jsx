@@ -55,19 +55,29 @@ function Header() {
                 onClick={() => setSideNav("hideSideNav")}
               ></i>
             </div>
+
             <Link
-              className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold p-2 br-2 hover-bg-secondary"
+              className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
               aria-current="page"
-              to="/about-us"
+              to="/"
             >
-              {t("AboutUs")}
+              {t("home")}
             </Link>
+            
+
             <Link
               className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
               aria-current="page"
               to="/contact"
             >
               {t("ContactUs")}
+            </Link>
+            <Link
+              className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold p-2 br-2 hover-bg-secondary"
+              aria-current="page"
+              to="/about-us"
+            >
+              {t("AboutUs")}
             </Link>
             <Link
             className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
