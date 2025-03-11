@@ -2,12 +2,17 @@ import style from "./contactUs.module.css" ;
 import Header from "../../components/common/header";
 import Footer from "../../components/common/footer";
 import Space from "../../components/common/space";
+import ContactUsForm from "../../components/contactUs/ContactUsForm";
+import PrendreRendezVous from "../../components/contactUs/PrendreRendezVous";
 
 export default function ContactUs() {
     return (
       <>
         <Header />
         <Space height="76px" backgroundColor="#010A1C" />
+        
+        <div className="">  
+        {/* 
         <section className={style.sec}>
           <div className={style.first}>
             <div
@@ -85,6 +90,13 @@ export default function ContactUs() {
               </form>
             </div>
           </div>
+        </section> 
+        */}
+
+</div>
+        <section className="my-4 d-flex flex-column  gap-4 align-items-center justify-content-center">
+<ContactUsForm/>
+<PrendreRendezVous/>
         </section>
         <Footer />
       </>

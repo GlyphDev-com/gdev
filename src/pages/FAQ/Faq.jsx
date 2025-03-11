@@ -24,8 +24,8 @@ export default function Faq() {
           <article>
             <h1>{t("faqServiceEtExpertise")}</h1>
             <div className="accordion" id="service">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
                   <button
                     className="accordion-button"
                     type="button"
@@ -42,7 +42,7 @@ export default function Faq() {
                   className="accordion-collapse collapse show"
                   data-bs-parent="#type"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("quelsTypeRe")}
                   </div>
                 </div>
@@ -66,7 +66,7 @@ export default function Faq() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#service"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("quelsCompetencesRe")}
                   </div>
                 </div>
@@ -77,8 +77,8 @@ export default function Faq() {
           <article>
             <h1>{t("faqDeveloppementEtProcessus")}</h1>
             <div className="accordion" id="developpement">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
                   <button
                     className="accordion-button"
                     type="button"
@@ -95,7 +95,7 @@ export default function Faq() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#developpement"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("CommentFonctionneLeProcessusRe")}
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function Faq() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#developpement"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("combienDeTempsRe")}
                   </div>
                 </div>
@@ -130,8 +130,8 @@ export default function Faq() {
           <article>
             <h1>{t("faqTarification")}</h1>
             <div className="accordion" id="tarification">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
                   <button
                     className="accordion-button"
                     type="button"
@@ -148,7 +148,7 @@ export default function Faq() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#tarification"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("commentDeterminerLeTarifRe")}
                   </div>
                 </div>
@@ -172,7 +172,7 @@ export default function Faq() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#tarification"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("proposezDesForfaitsRe")}
                   </div>
                 </div>
@@ -183,8 +183,8 @@ export default function Faq() {
           <article>
             <h1>{t("faqMaintenanceEtSupport")}</h1>
             <div className="accordion" id="maintenance">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
                   <button
                     className="accordion-button"
                     type="button"
@@ -201,7 +201,7 @@ export default function Faq() {
                   className="accordion-collapse collapse "
                   data-bs-parent="#maintenance"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     {t("offrerUnServiceRe")}
                   </div>
                 </div>
@@ -236,8 +236,8 @@ export default function Faq() {
           <article>
             <h1>{t("faqLivraisonEtTest")}</h1>
             <div className="accordion" id="livraison">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
                   <button
                     className="accordion-button"
                     type="button"

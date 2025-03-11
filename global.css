@@ -261,7 +261,7 @@ section.dark .text-gLight {
 }
 
 .border-l-0 {
-  border-left: 0;
+  border-left: 0 !important;
 }
 
 .border-l-1 {
