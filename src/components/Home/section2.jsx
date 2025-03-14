@@ -1,25 +1,10 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {
-  faBookOpen,
-  faGraduationCap,
-  faUserGraduate,
-  faCircle,
-  faBrain,
-  faCode,
-  faBriefcase,
-} from "@fortawesome/free-solid-svg-icons";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import "./section2.css";
-
-import laptop from "../../assets/lap.jpeg";
 import {useEffect} from "react";
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
+
 
 export default function Section2() {
-
-
-  const {t} = useTranslation()
+  const {t} = useTranslation();
 
   useEffect(() => {
     const targetElement = document.getElementById("section2-1"); // Replace with the actual target element ID
@@ -67,34 +52,10 @@ export default function Section2() {
     };
   }, []);
 
-  //observe the lines
-  useEffect(() => {
-    const lines = document.querySelectorAll(".lineContainer");
-    const options = {
-      root: null, // Observe relative to viewport
-      threshold: 1, // When 50% visible, trigger animation
-    };
-
-    const observer = new IntersectionObserver(intersectionHandler, options);
-
-    function intersectionHandler(entries) {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          let lineId = `${entry.target.getAttribute("data-linenum")}`;
-
-          document.getElementById(lineId).style.height = "100%";
-        }
-      });
-    }
-
-    lines.forEach((line) => {
-      observer.observe(line);
-    });
-  });
+ 
 
   return (
     <>
-      {" "}
       <section id="section2">
         <div id="section2-1">
           <div id="section2-1-text-area" className="col-7">
@@ -102,11 +63,11 @@ export default function Section2() {
               {t("codeLikeABoss")} <br /> {t("masterTechSkills")}
             </h1>
             <br />
-            <p className="gt-5 text-secondary">
-            {t("stuckInTech")}
-            </p>
+            <p className="gt-5 text-secondary">{t("stuckInTech")}</p>
             <p>
-              <button className="btn btn-primary text-light">{t("enrollNow")}</button>
+              <button className="btn btn-primary text-light">
+                {t("enrollNow")}
+              </button>
             </p>
           </div>
           <svg
@@ -151,83 +112,8 @@ export default function Section2() {
             />
           </svg>
         </div>
-
-        <div id="section2-2" className="mb-0">
-          <div id="indicator">
-            <div id="icon1" className="indicatorIcon">
-              <FontAwesomeIcon className="i special" icon={faCircle} />
-            </div>
-            <div className="lineContainer col-3" data-linenum="line1">
-              <div className="line" id="line1"></div>
-            </div>
-            <div id="icon2" className="indicatorIcon">
-              <FontAwesomeIcon className="i" icon={faBrain} />
-            </div>
-            <div className="lineContainer col-3" data-linenum="line2">
-              <div className="line " id="line2"></div>
-            </div>
-            <div id="icon3" className="indicatorIcon">
-              <FontAwesomeIcon className="i" icon={faUserGraduate} />
-            </div>
-            <div className="lineContainer col-3" data-linenum="line3">
-              <div className="line" id="line3"></div>
-            </div>
-            <div id="icon4" className="indicatorIcon">
-              <FontAwesomeIcon className="i" icon={faBriefcase} />
-            </div>
-
-            <div className="lineContainer col-3" data-linenum="line4">
-              <div className="line" id="line4"></div>
-            </div>
-          </div>
-          <div id="section2-2-text-area">
-            <div className="sec">
-              <h2 className="col-10 fw-bold text-light display-2">
-                <span translate="no">GDEV</span>, {t("yourPartner")}
-              </h2>
-            </div>
-
-            <div className="sec" data-aos="flip-up">
-              <h3 className="" style={{color: "rgb(182, 39, 221)"}}>
-              {t("ideas")}
-              </h3>
-              <p
-                className="col-6 text-light mr-5"
-                style={{
-                  border: "0.5px solid rgba(202, 84, 242, 0.311)",
-                }}
-              >
-                {t("weDontJustDeliver")}
-              </p>
-            </div>
-
-            <div className="sec" data-aos="fade-right">
-              <h3 className="" style={{color: "rgb(39, 136, 221)"}}>
-              {t("training")}
-              </h3>
-              <p
-                className="col-6 text-light"
-                style={{border: "0.5px solid rgba(202, 84, 242, 0.311)"}}
-              >
-                {t("weOffer")}
-              </p>
-            </div>
-
-            <div className="sec" data-aos="flip-down">
-              <h3 className="" style={{color: "green"}}>
-                {t("productivity")}
-              </h3>
-              <p className="col-6 text-light ">
-              {t("leadByIndustryExperts")}
-              </p>
-            </div>
-          </div>
-           <div id="section2-2-image" className="tablet-d-none mobile-d-none ipad-d-none">
-            <img className="img-responsive" src={laptop} alt="gdev" />
-          </div> 
-        </div>
       </section>
-      <hr  className="my-8 mobile-my-10" style={{color: "rgb(32, 35, 38)"}} />
+      <hr className="my-8 mobile-my-10" style={{color: "rgb(32, 35, 38)"}} />
     </>
   );
 }

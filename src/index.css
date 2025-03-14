@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   user-select: none;
   overflow-x: hidden !important;
+  background-color: rgb(3, 1, 28);
 }
 
 /* Width of the scrollbar */
@@ -57,14 +58,13 @@ img {
   height: 100% !important;
 }
 
-.ql-align-center{
+.ql-align-center {
   text-align: center;
 }
 
 /*material ui*/
-.MuiPaper-root:has(.gdev_popover)
-   {
-   background-color: transparent !important;
+.MuiPaper-root:has(.gdev_popover) {
+  background-color: transparent !important;
   box-shadow: none !important;
 }
 

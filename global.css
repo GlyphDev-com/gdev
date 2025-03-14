@@ -1093,3 +1093,86 @@ th {
 .allow-select {
   user-select: text !important;
 }
+
+/**bootstrap rename */
+#root .bg-primary {
+  background-color: rgb(51, 153, 255) !important;
+}
+
+#root .text-primary {
+  color: rgb(51, 153, 255) !important;
+}
+
+#root .border-primary {
+  border-color: rgb(51, 153, 255) !important;
+}
+
+#root .btn-primary {
+  background-color: rgb(51, 153, 255) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+/**text alignment */
+.text-justify {
+  text-align: justify !important;
+}
+
+/**padding */
+.p-6 {
+  padding: 2.5rem !important;
+}
+.p-7 {
+  padding: 3rem !important;
+}
+.p-8 {
+  padding: 3.5rem !important;
+}
+
+.p-9 {
+  padding: 4rem !important;
+}
+
+.p-10 {
+  padding: 4.5rem !important;
+}
+.py-6{
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+.py-7{
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.py-8{
+  padding-top: 3.5rem !important;
+  padding-bottom: 3.5rem !important;
+}
+.py-9{
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+.py-10{
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+
+.px-6{
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+.px-7{
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.px-8{
+  padding-left: 3.5rem !important;
+  padding-right: 3.5rem !important;
+}
+.px-9{
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+.px-10{
+  padding-left: 4.5rem !important;
+  padding-right: 4.5rem !important;
+}

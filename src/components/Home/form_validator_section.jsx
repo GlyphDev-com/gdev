@@ -30,7 +30,7 @@ const GdevFormValidatorSection = () => {
               <span translate="no"> gdev_form_validator</span>, <br />
               {t("youCanImplement")}
             </p>
-            <div className="my-4">
+            <div className="my-4 d-flex flex-row gap-3 mobile-flex-column">
               <a
                 href="http://localhost:5000/"
                 className="btn btn-primary btn-lg gt-4 me-2 "

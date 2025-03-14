@@ -32,30 +32,34 @@ function Header() {
         themeColor={"#0f1214"}
       />
       <nav
-        className="header py-2 fixed-top p-x-100 mobile-px-2 border-b-1 d-flex flex-row align-items-center justify-content-between"
+        className="header py-2 fixed-top p-x-100 mobile-px-2 border-b-1 d-flex flex-row align-items-center justify-content-between gap-5"
         style={{borderColor: "rgb(32, 35, 38)"}}
       >
         <Link to="/" className="nav-link " id="page" aria-current="page">
           <img className="img-responsive" id="logo" src={gdevLogo} alt="logo" />
         </Link>
 
-        <i
-          className="bi bi-list text-light fw-bold gt-20 cursor-ptr desktop-d-none laptop-d-none"
+        <div
+          className="d-flex flex-row align-items-center gap-3 px-3 lift-2 rounded-pill bg-dark cursor-ptr  desktop-d-none laptop-d-none"
           onClick={() => {
             setSideNav("showSideNav");
           }}
-        ></i>
-        <div className="d-flex flex-row align-items-center gap-5">
-          <div
-            className={`d-flex flex-row align-items- gap-3 tablet-d-none ipad-d-none mobile-d-none ${sideNav}`}
-          >
-            <div className="w-100 my-2  d-none tablet-d-block ipad-d-block mobile-d-block">
-              <i
-                className="bi bi-chevron-right text-light cursor-ptr gt-12 rounded-circle d-flex align-items-center justify-content-center border-b-2 border-l-2 sideCloser border-color-jira"
-                onClick={() => setSideNav("hideSideNav")}
-              ></i>
-            </div>
+        >
+          <i className="bi bi-list text-light fw-bold gt-15"></i>
+          <span className="text-light">Menu</span>
+        </div>
 
+        <div
+          className={`d-flex flex-row align-items-center justify-content-between flex-grow-1 gap-3 tablet-d-none ipad-d-none mobile-d-none ${sideNav}`}
+        >
+          <div className="w-100 my-2  d-none tablet-d-block ipad-d-block mobile-d-block">
+            <i
+              className="bi bi-chevron-right text-light cursor-ptr gt-12 rounded-circle d-flex align-items-center justify-content-center border-b-2 border-l-2 sideCloser border-color-jira"
+              onClick={() => setSideNav("hideSideNav")}
+            ></i>
+          </div>
+
+          <div className="d-flex flex-row mobile-flex-column mobile-h-1  gap-4 align-items-center">
             <Link
               className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
               aria-current="page"
@@ -63,8 +67,6 @@ function Header() {
             >
               {t("home")}
             </Link>
-            
-
             <Link
               className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
               aria-current="page"
@@ -80,13 +82,13 @@ function Header() {
               {t("AboutUs")}
             </Link>
             <Link
-            className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
-            aria-current="page"
-            to="/FAQ"
-          >
-                        {/* {t("ContactUs")} */}
-                        FAQ
-          </Link>
+              className="text-decoration-none wh-2 tablet-px-4 ipad-px-4 mobile-px-4 gt-4 fw-bold  p-2 br-2 hover-bg-secondary tablet-m-0 ipad-m-0 mobile-m-0"
+              aria-current="page"
+              to="/FAQ"
+            >
+              {/* {t("ContactUs")} */}
+              FAQ
+            </Link>
             <a
               className="text-decoration-none wh-2 gt-4 tablet-px-4 ipad-px-4 mobile-px-4 fw-bold p-2 br-2 hover-bg-secondary me-5 tablet-m-0 ipad-m-0 mobile-m-0"
               href="http://localhost:5000/"
@@ -95,7 +97,9 @@ function Header() {
             >
               gdev_form_validator
             </a>
+          </div>
 
+          <div className="d-flex flex-row mobile-flex-column mobile-h-100 gap-3 align-items-center">
             <a
               target="_blank"
               href="/myvirtualschool/signin/trainee/gdev university/YUEIU-RT-YIOJOIT8ORE[]THTOIJ8H_87623FECWUDVSYRTFDT7W6EFKSDYS80W43"
@@ -111,8 +115,11 @@ function Header() {
             >
               {t("CreateASkul")}
             </a>
+
+            <div className="mobile-d-none ipad-d-none">
+              <LanguageSwitcher />
+            </div>
           </div>
-          <LanguageSwitcher />
         </div>
       </nav>
     </>

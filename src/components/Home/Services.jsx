@@ -62,8 +62,8 @@ const Services = () => {
         </div>
         <div className={`${style.carousel_container} sb-i`}>
           <div className={`${style.carousel} sb-i`}>
-            {data.map((service) => (
-              <ServiceCard key={service.id} service={service} />
+            {data.map((service, i) => (
+              <ServiceCard key={service.id} service={service} index={i} />
             ))}
           </div>
           <div className={`${style.fade_overla}`}></div>

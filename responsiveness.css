@@ -1,6 +1,85 @@
 /* Extra Small (mobile) */
 @media (max-width: 480px) {
   /* Styles for smaller mobile devices */
+  /*text alignment*/
+  .mobile-text-center{
+    text-align: center !important;
+  }
+
+  /*font size*/
+  .mobile-gt-1 {
+  font-size: 0.5rem !important;
+}
+.mobile-gt-2 {
+  font-size: 0.6rem !important;
+}
+.mobile-gt-3 {
+  font-size: 0.7rem !important;
+}
+.mobile-gt-4 {
+  font-size: 0.8rem !important;
+}
+.mobile-gt-5 {
+  font-size: 0.9rem !important;
+}
+.mobile-gt-6 {
+  font-size: 1rem !important;
+}
+.mobile-gt-7 {
+  font-size: 1.1rem !important;
+}
+
+.mobile-gt-8 {
+  font-size: 1.2rem !important;
+}
+
+.mobile-gt-9 {
+  font-size: 1.3rem !important;
+}
+
+.mobile-gt-10 {
+  font-size: 1.4rem !important;
+}
+
+.mobile-gt-11 {
+  font-size: 1.5rem !important;
+}
+
+.mobile-gt-12 {
+  font-size: 1.6rem !important;
+}
+
+.mobile-gt-13 {
+  font-size: 1.7rem !important;
+}
+
+.mobile-gt-14 {
+  font-size: 1.8rem !important;
+}
+
+.mobile-gt-15 {
+  font-size: 1.9rem !important;
+}
+
+.mobile-gt-16 {
+  font-size: 2rem !important;
+}
+
+.mobile-gt-17 {
+  font-size: 2.1rem !important;
+}
+
+.mobile-gt-18 {
+  font-size: 2.2rem !important;
+}
+
+.mobile-gt-19 {
+  font-size: 2.3rem !important;
+}
+
+.mobile-gt-20 {
+  font-size: 2.4rem !important;
+}
 /*gap*/
 .mobile-gap-0 {
   gap: 0 !important;

@@ -1,5 +1,5 @@
 import React from "react";
-const ServiceCard = ({service}) => {
+const ServiceCard = ({service, index}) => {
 const {id, title, description, image} = service;
   return (
     <div
@@ -10,7 +10,7 @@ const {id, title, description, image} = service;
         backgroundColor: " rgba(3, 1, 28)",
       }}
     >
-      <div className="d-flex align-items-center justify-content-center p-5 position-relative br-2">
+      <div className="d-flex align-items-center justify-content-center p-5 position-relative br-2 mobile-d-none">
         <img
           src={image}
           className="height-400 ipad-hight-300 mobile-height-200"
@@ -26,10 +26,11 @@ const {id, title, description, image} = service;
       </div>
 
       <div className="p-5 mobile-p-5">
-        <h2 className="fw-bold gt-12 py-3 text-light">{title}</h2>
-        <p className="gt-7 wh-2">
-          {description}
-        </p>
+        <div className="d-flex flex-row align-items-center gap-3">
+          <div className="border text-light d-flex align-items-center justify-content-center border-primary rounded-circle" style={{width: "30px", height: "30px"}}><span>{index + 1}</span></div>
+          <h2 className="fw-bold gt-12 py-3 text-light">{title}</h2>
+        </div>
+        <p className="gt-7 wh-2">{description}</p>
       </div>
     </div>
   );

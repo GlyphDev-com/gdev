@@ -72,7 +72,7 @@ export default function Section1() {
 
             <div className="d-flex flex-row gap-2 mobile-flex-column">
               <Link
-                to="services/mobile"
+                to="contact"
                 className="d-flex align-items-center btn btn-primary mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
               >
                 <span>{t("letsTalk")}</span>
@@ -82,7 +82,7 @@ export default function Section1() {
                 href=" https://whatsapp.com/channel/0029Vb2tRgJBfxoDP6K2Di1S "
                 target="_blank"
                 rel="noopener noreferrer"
-                className="d-flex align-items-center btn border-r-1 border-l-1 border-color-jira text-light mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
+                className="d-flex align-items-center btn  border-color-jira text-light mobile-my-2 mobile-w-100 justify-content-center  gt-4 fw-bold p-2 width-fit-content"
               >
                 <span>{t("whatsapUs")}</span>
                 <i className="bi bi-chevron-right text-light"></i>

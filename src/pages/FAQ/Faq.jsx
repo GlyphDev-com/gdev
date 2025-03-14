@@ -2,29 +2,26 @@ import React from "react";
 import Header from "../../components/common/header";
 import Space from "../../components/common/space";
 import Footer from "../../components/common/footer";
-import { useTranslation } from "react-i18next";
+import {useTranslation} from "react-i18next";
 
 export default function Faq() {
-  const { t } = useTranslation();
+  const {t} = useTranslation();
 
   return (
     <>
       <Header />
       <Space height="76px" backgroundColor="#010A1C" />
 
-      <section className="container wh-2 ">
-        <article style={{ margin: "32px" }}>
+      <section className="container wh-2 my-4" style={{overflow: "hidden"}}>
+        <article className="mobile-m-0" style={{margin: "32px"}}>
           <p>{t("faqIntroduction")}</p>
         </article>
 
-        <section
-          //   style={{ margin: "32px", padding: "32px", overflow: "scroll",display:"flex", flexDirection:"column", gap:"35px" }}
-          className="d-flex flex-column m-4 gap-3 "
-        >
+        <section className="d-flex flex-column m-4 gap-3 mobile-m-0 ipad-m-0">
           <article>
-            <h1>{t("faqServiceEtExpertise")}</h1>
+            <h1 className="text-light">{t("faqServiceEtExpertise")}</h1>
             <div className="accordion" id="service">
-              <div className="accordion-item">
+              <div className="accordion-item ">
                 <h2 className="accordion-header">
                   <button
                     className="accordion-button"
@@ -42,9 +39,7 @@ export default function Faq() {
                   className="accordion-collapse collapse show"
                   data-bs-parent="#type"
                 >
-                  <div className="accordion-body">
-                    {t("quelsTypeRe")}
-                  </div>
+                  <div className="accordion-body">{t("quelsTypeRe")}</div>
                 </div>
               </div>
 
@@ -75,7 +70,7 @@ export default function Faq() {
           </article>
 
           <article>
-            <h1>{t("faqDeveloppementEtProcessus")}</h1>
+            <h1 className="text-light">{t("faqDeveloppementEtProcessus")}</h1>
             <div className="accordion" id="developpement">
               <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -119,16 +114,14 @@ export default function Faq() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#developpement"
                 >
-                  <div className="accordion-body">
-                    {t("combienDeTempsRe")}
-                  </div>
+                  <div className="accordion-body">{t("combienDeTempsRe")}</div>
                 </div>
               </div>
             </div>
           </article>
 
           <article>
-            <h1>{t("faqTarification")}</h1>
+            <h1 className="text-light">{t("faqTarification")}</h1>
             <div className="accordion" id="tarification">
               <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -181,7 +174,7 @@ export default function Faq() {
           </article>
 
           <article>
-            <h1>{t("faqMaintenanceEtSupport")}</h1>
+            <h1 className="text-light">{t("faqMaintenanceEtSupport")}</h1>
             <div className="accordion" id="maintenance">
               <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -201,9 +194,7 @@ export default function Faq() {
                   className="accordion-collapse collapse "
                   data-bs-parent="#maintenance"
                 >
-                  <div className="accordion-body">
-                    {t("offrerUnServiceRe")}
-                  </div>
+                  <div className="accordion-body">{t("offrerUnServiceRe")}</div>
                 </div>
               </div>
 
@@ -234,7 +225,7 @@ export default function Faq() {
           </article>
 
           <article>
-            <h1>{t("faqLivraisonEtTest")}</h1>
+            <h1 className="text-light">{t("faqLivraisonEtTest")}</h1>
             <div className="accordion" id="livraison">
               <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -254,38 +245,9 @@ export default function Faq() {
                   className="accordion-collapse collapse show "
                   data-bs-parent="#livraison"
                 >
-                  <div class="accordion-body">
-                    {t("commentPuisJeTesterRe")}
-                  </div>
+                  <div class="accordion-body">{t("commentPuisJeTesterRe")}</div>
                 </div>
               </div>
-
-              {/* <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#support"
-                    aria-expanded="false"
-                    aria-controls="support"
-                  >
-                    Comment gérez-vous le support après le lancement ?
-                  </button>
-                </h2>
-                <div
-                  id="support"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#maintenance"
-                >
-                  <div class="accordion-body">
-                    Nous proposons une assistance technique continue, que ce
-                    soit par email, téléphone ou chat en ligne. Nous assurons
-                    aussi des mises à jour régulières pour garder vos
-                    applications à jour.
-                  </div>
-                </div>
-              </div> */}
             </div>
           </article>
         </section>

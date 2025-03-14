@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {useTranslation} from "react-i18next";
 import Flag from "react-world-flags";
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({className}) {
   const {i18n} = useTranslation();
   const [langue, setLangue] = useState(i18n.language);
 
@@ -17,10 +17,10 @@ export default function LanguageSwitcher() {
     localStorage.setItem("language", langueCode);
   };
   return (
-    <div className="dropdown">
+    <div className={`dropdown`}>
       <button
         style={{outline: "none", border: "none"}}
-        className=" outline-none bg-transparent wh-2 border-color-jira  border-l-2 br-1 border-b-1 lift-1 dropdown-toggle "
+        className={`outline-none bg-transparent wh-2 border-color-jira  border-l-2 br-1 border-b-1 lift-1 dropdown-toggle  ${className}`}
         type="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"

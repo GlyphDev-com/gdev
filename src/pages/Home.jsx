@@ -10,6 +10,8 @@ import {useEffect} from "react";
 import Features  from "../components/Home/Features.jsx";
 import Partners from "../components/Home/Partners.jsx";
 import Services from "../components/Home/Services.jsx";
+import Inspiration from "../components/Home/Inspiration.jsx";
+import LanguageSwitcher from "../components/common/languageSwitcher.jsx";
 
 
 export default function Home() {
@@ -17,15 +19,16 @@ export default function Home() {
     window.scrollTo({top: 0, behavior: "smooth"});
   }, []);
   return (
-    <div style={{backgroundColor: "rgb(3, 1, 28)", overflowX:"hidden"}} >
+    <div style={{backgroundColor: "rgb(3, 1, 28)", overflow: "hidden"}}>
       <Header />
       <Section1 />
-      <Partners/>
+      <Partners />
       <Section2 />
       <VirtualSchoolSection />
       <GdevFormValidatorSection />
       <Features />
-      <Services/>
+      <Inspiration />
+      <Services />
       <Section3 />
       <Footer />
     </div>
