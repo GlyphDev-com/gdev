@@ -7,6 +7,7 @@ import SEOHelmet from "./helmet";
 import {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import LanguageSwitcher from "./languageSwitcher";
+import { formvalidatorDocumentationURL } from "../../config";
 //create header component
 function Header() {
   const [sideNav, setSideNav] = useState(false);
@@ -91,7 +92,7 @@ function Header() {
             </Link>
             <a
               className="text-decoration-none wh-2 gt-4 tablet-px-4 ipad-px-4 mobile-px-4 fw-bold p-2 br-2 hover-bg-secondary me-5 tablet-m-0 ipad-m-0 mobile-m-0"
-              href="http://localhost:5000/"
+              href={formvalidatorDocumentationURL}
               translate="no"
               target="_blank"
             >

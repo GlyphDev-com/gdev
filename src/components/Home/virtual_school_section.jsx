@@ -2,6 +2,7 @@ import React from "react";
 import style from "./vs_.module.css";
 import vsImgShowcase from "../../assets/vsImgShowcase.svg";
 import { useTranslation } from "react-i18next";
+import { virtualschoolURL } from "../../config";
 
 const VirtualSchoolSection = () => {
 
@@ -57,12 +58,12 @@ const VirtualSchoolSection = () => {
             className={`position-absolute top-0 end-0  ${style.create_school_button_container} ipad-m-2 mobile-m-2`}
           >
             <a
-              href="/myvirtualschool/create"
+              href={virtualschoolURL}
               className="text-decoration-none"
               target="_black"
             >
               <div
-                className={`w-100 h-100 position-relative cursor-ptr d-flex align-items-center justify-content-center ${style.create_school_wrapper} `}
+                className={`w-100 h-100 p-2 position-relative cursor-ptr d-flex align-items-center justify-content-center ${style.create_school_wrapper} `}
               >
                 <span className="gt-5  text-white cursor-ptr">
                   {t("createVitualSkul")}

@@ -35,7 +35,7 @@
   "createAVirtualSkulThat": "Créez une école virtuelle qui se distingue",
   "buildTeach": "Construire. Enseigner. Autonomiser.",
   "fromCustomCoursTo": "Des cours personnalisés aux outils de gestion transparents, Gdev Virtual School donne vie à votre vision pédagogique.",
-  "createVitualSkul": "Créer une école virtuelle",
+  "createVitualSkul": " Commencez.",
   "comment to delimit GdevFormValidatorSection": "GdevFormValidatorSection",
   "dataSanitization": "SANITISATION DES DONNÉES",
   "effortless": "Sans effort",
@@ -87,7 +87,7 @@
   "faqIntroduction": "Vous avez des questions concernant nos services de développement d'applications mobile/web et de pages web ? Nous avons rassemblé ici les réponses aux questions les plus courantes. Si vous ne trouvez pas ce que vous cherchez, n'hésitez pas à nous contacter directement.",
   "faqServiceEtExpertise": "Services et Expertise",
   "quelsType": "Quels types d’applications développez-vous ?",
-  "quelsTypeRe":  "Nous développons des applications mobiles pour iOS et Android, des applications web et des pages web sur mesure, adaptées aux besoins spécifiques de votre entreprise.",
+  "quelsTypeRe": "Nous développons des applications mobiles pour iOS et Android, des applications web et des pages web sur mesure, adaptées aux besoins spécifiques de votre entreprise.",
   "quelsCompetences": "Quelles sont vos principales compétences ?",
   "quelsCompetencesRe": "Nous sommes spécialisés dans le développement d’applications mobiles natives, hybrides, ainsi que dans la création de sites web interactifs et responsives en utilisant des technologies comme React, Vue.js, Angular, etc.",
   "faqDeveloppementEtProcessus": "Développement et Processus",
@@ -108,11 +108,4 @@
   "faqLivraisonEtTest": "Livraison et Tests",
   "commentPuisJeTester": "Comment puis-je tester l’application avant la livraison ?",
   "commentPuisJeTesterRe": "Nous offrons des versions beta de l’application pour que vous puissiez tester les fonctionnalités avant la mise en ligne officielle. Nous effectuons aussi des tests utilisateurs pour garantir la qualité du produit."
-
-
-
-
-
-
-
 }

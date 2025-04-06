@@ -1,6 +1,7 @@
 import React from "react";
 import sampleCode from "../../assets/gd_form_validator_code.png";
 import { useTranslation } from "react-i18next";
+import { formvalidatorDocumentationURL } from "../../config";
 const GdevFormValidatorSection = () => {
   const {t}= useTranslation()
   return (
@@ -32,7 +33,7 @@ const GdevFormValidatorSection = () => {
             </p>
             <div className="my-4 d-flex flex-row gap-3 mobile-flex-column">
               <a
-                href="http://localhost:5000/"
+                href={formvalidatorDocumentationURL}
                 className="btn btn-primary btn-lg gt-4 me-2 "
                 target="_blank"
               >
