@@ -1,10 +1,13 @@
 import React, {useState} from "react";
 import {useTranslation} from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import Flag from "react-world-flags";
 
 export default function LanguageSwitcher({className}) {
   const {i18n} = useTranslation();
   const [langue, setLangue] = useState(i18n.language);
+
+  const navigate = useNavigate()
 
   const langues = [
     {code: "en", label: "English", flag: "GB"},
@@ -15,6 +18,7 @@ export default function LanguageSwitcher({className}) {
     setLangue(langueCode);
     i18n.changeLanguage(langueCode);
     localStorage.setItem("language", langueCode);
+    navigate(0)
   };
   return (
     <div className={`dropdown`}>

@@ -15,18 +15,6 @@ import LanguageSwitcher from "./components/common/languageSwitcher.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <Router />
-    <div
-      className="position-fixed me-3 mobile-d-flex ipad-d-flex align-items-center justify-content-center rounded-circle lifth-2 bg-primary"
-      style={{
-        display: "none",
-        right: "0",
-        top: "calc(100% - 100px)",
-        zIndex: "1",
-        height: "50px",
-        width: "50px",
-      }}
-    >
-      <LanguageSwitcher className={"mobile-p-3 ipad-p-3 border-0 text-light"} />
-    </div>
+
   </>
 );
